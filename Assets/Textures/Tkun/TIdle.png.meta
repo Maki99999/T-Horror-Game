@@ -1,0 +1,5866 @@
+fileFormatVersion: 2
+guid: 372020475c1ba12419be81557ac59a52
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1405084703031107075
+    second: TIdle_0
+  - first:
+      213: 7218934937623969639
+    second: TIdle_1
+  - first:
+      213: -7177773085298589428
+    second: TIdle_2
+  - first:
+      213: 8160829974067910724
+    second: TIdle_3
+  - first:
+      213: 4873750441143971230
+    second: TIdle_4
+  - first:
+      213: 7436913545483069721
+    second: TIdle_5
+  - first:
+      213: -5555494579908751013
+    second: TIdle_6
+  - first:
+      213: 4563104808346781424
+    second: TIdle_7
+  - first:
+      213: -107030214148617901
+    second: TIdle_8
+  - first:
+      213: 70235950075479490
+    second: TIdle_9
+  - first:
+      213: 2384061262499366795
+    second: TIdle_10
+  - first:
+      213: 948497551568992197
+    second: TIdle_11
+  - first:
+      213: 4056015028834948770
+    second: TIdle_12
+  - first:
+      213: 1642565331343017198
+    second: TIdle_13
+  - first:
+      213: 118880063311930554
+    second: TIdle_14
+  - first:
+      213: 2543213451448338946
+    second: TIdle_15
+  - first:
+      213: 4916247510874634521
+    second: TIdle_16
+  - first:
+      213: 3518914650028379734
+    second: TIdle_17
+  - first:
+      213: 821617647303528589
+    second: TIdle_18
+  - first:
+      213: -5573505298710900564
+    second: TIdle_19
+  - first:
+      213: 8345902765633312994
+    second: TIdle_20
+  - first:
+      213: 1171493065372628181
+    second: TIdle_21
+  - first:
+      213: -7030821431580200717
+    second: TIdle_22
+  - first:
+      213: -441883077938967364
+    second: TIdle_23
+  - first:
+      213: 825344897531805485
+    second: TIdle_24
+  - first:
+      213: -1756820461498067565
+    second: TIdle_25
+  - first:
+      213: -8430589137979758702
+    second: TIdle_26
+  - first:
+      213: -8147874738692645733
+    second: TIdle_27
+  - first:
+      213: -7966376707823082631
+    second: TIdle_28
+  - first:
+      213: -8936636134535730494
+    second: TIdle_29
+  - first:
+      213: 4716619376191624627
+    second: TIdle_30
+  - first:
+      213: -6426158617530363214
+    second: TIdle_31
+  - first:
+      213: -8453129282689725585
+    second: TIdle_32
+  - first:
+      213: -1362590442525671880
+    second: TIdle_33
+  - first:
+      213: -4023603731684679431
+    second: TIdle_34
+  - first:
+      213: 2184177938783696616
+    second: TIdle_35
+  - first:
+      213: -3403556360506282053
+    second: TIdle_36
+  - first:
+      213: 5666806863919983461
+    second: TIdle_37
+  - first:
+      213: -4986232453055672727
+    second: TIdle_38
+  - first:
+      213: -6709760072481833970
+    second: TIdle_39
+  - first:
+      213: -7069100848979562822
+    second: TIdle_40
+  - first:
+      213: 134406846686412924
+    second: TIdle_41
+  - first:
+      213: -1739585999633571071
+    second: TIdle_42
+  - first:
+      213: -5240826051831722270
+    second: TIdle_43
+  - first:
+      213: 2322873403662086345
+    second: TIdle_44
+  - first:
+      213: -6082484142597088078
+    second: TIdle_45
+  - first:
+      213: -7002074984407086110
+    second: TIdle_46
+  - first:
+      213: -2654180006763912607
+    second: TIdle_47
+  - first:
+      213: -1732455840380857259
+    second: TIdle_48
+  - first:
+      213: -5838680633557845267
+    second: TIdle_49
+  - first:
+      213: -1695319767074803005
+    second: TIdle_50
+  - first:
+      213: -5333585557190198514
+    second: TIdle_51
+  - first:
+      213: 1153113315125116762
+    second: TIdle_52
+  - first:
+      213: -8317172071249452958
+    second: TIdle_53
+  - first:
+      213: -1239024974559891114
+    second: TIdle_54
+  - first:
+      213: 2154313106175579966
+    second: TIdle_55
+  - first:
+      213: 7574394335228025724
+    second: TIdle_56
+  - first:
+      213: -215123801094766974
+    second: TIdle_57
+  - first:
+      213: 7729625852606871894
+    second: TIdle_58
+  - first:
+      213: -4663025024805862626
+    second: TIdle_59
+  - first:
+      213: 7480394210923670000
+    second: TIdle_60
+  - first:
+      213: 1102432969684321118
+    second: TIdle_61
+  - first:
+      213: 695779691212258389
+    second: TIdle_62
+  - first:
+      213: 636967775164725083
+    second: TIdle_63
+  - first:
+      213: -6748076087531822829
+    second: TIdle_64
+  - first:
+      213: -758569019051706284
+    second: TIdle_65
+  - first:
+      213: 3885280401471402293
+    second: TIdle_66
+  - first:
+      213: -4741604760057852518
+    second: TIdle_67
+  - first:
+      213: -3669763630044877479
+    second: TIdle_68
+  - first:
+      213: 7763996619561258536
+    second: TIdle_69
+  - first:
+      213: -8632465327388448426
+    second: TIdle_70
+  - first:
+      213: -5326087871364209125
+    second: TIdle_71
+  - first:
+      213: 6914380851382257209
+    second: TIdle_72
+  - first:
+      213: -5464600967661786182
+    second: TIdle_73
+  - first:
+      213: 3503606300515992102
+    second: TIdle_74
+  - first:
+      213: 2905234028380624776
+    second: TIdle_75
+  - first:
+      213: -662725790641878363
+    second: TIdle_76
+  - first:
+      213: 8387647409015486369
+    second: TIdle_77
+  - first:
+      213: 3737066480451723953
+    second: TIdle_78
+  - first:
+      213: -4762993849901439162
+    second: TIdle_79
+  - first:
+      213: 2717866316953504018
+    second: TIdle_80
+  - first:
+      213: 6189835836548159371
+    second: TIdle_81
+  - first:
+      213: 8325886345187133944
+    second: TIdle_82
+  - first:
+      213: 6702157835195936351
+    second: TIdle_83
+  - first:
+      213: 3651474087821821416
+    second: TIdle_84
+  - first:
+      213: -4790724845280729867
+    second: TIdle_85
+  - first:
+      213: -4536193254176832021
+    second: TIdle_86
+  - first:
+      213: 8455897508547351775
+    second: TIdle_87
+  - first:
+      213: -4880986380466166045
+    second: TIdle_88
+  - first:
+      213: -9034626180755353124
+    second: TIdle_89
+  - first:
+      213: -7822155807177584845
+    second: TIdle_90
+  - first:
+      213: -8843143582215556348
+    second: TIdle_91
+  - first:
+      213: 5715419136721725461
+    second: TIdle_92
+  - first:
+      213: 2430217699738686200
+    second: TIdle_93
+  - first:
+      213: -177162287490604205
+    second: TIdle_94
+  - first:
+      213: 1375531547526954174
+    second: TIdle_95
+  - first:
+      213: -5530183741567734290
+    second: TIdle_96
+  - first:
+      213: -15885713131042142
+    second: TIdle_97
+  - first:
+      213: -6689385494923656656
+    second: TIdle_98
+  - first:
+      213: 4820457395137974187
+    second: TIdle_99
+  - first:
+      213: -5076146448386719811
+    second: TIdle_100
+  - first:
+      213: 6245572597334787455
+    second: TIdle_101
+  - first:
+      213: 3241556178733506343
+    second: TIdle_102
+  - first:
+      213: 827959210192866009
+    second: TIdle_103
+  - first:
+      213: -5328662349954454503
+    second: TIdle_104
+  - first:
+      213: -2376037687161792861
+    second: TIdle_105
+  - first:
+      213: 5076337349484056133
+    second: TIdle_106
+  - first:
+      213: -2659936320454055734
+    second: TIdle_107
+  - first:
+      213: -6886207735617868957
+    second: TIdle_108
+  - first:
+      213: -6352234893254247592
+    second: TIdle_109
+  - first:
+      213: -6935505929872132419
+    second: TIdle_110
+  - first:
+      213: -2270036519917307682
+    second: TIdle_111
+  - first:
+      213: -6908024818075683149
+    second: TIdle_112
+  - first:
+      213: 606007999792884355
+    second: TIdle_113
+  - first:
+      213: 752695532647211212
+    second: TIdle_114
+  - first:
+      213: -8782451279713218421
+    second: TIdle_115
+  - first:
+      213: -7881266737116536039
+    second: TIdle_116
+  - first:
+      213: 7096046816039583103
+    second: TIdle_117
+  - first:
+      213: 9100251094973769970
+    second: TIdle_118
+  - first:
+      213: -318126734923183860
+    second: TIdle_119
+  - first:
+      213: -2538793633909480606
+    second: TIdle_120
+  - first:
+      213: -7289323769685224420
+    second: TIdle_121
+  - first:
+      213: -6256478724413047196
+    second: TIdle_122
+  - first:
+      213: -448237312882065225
+    second: TIdle_123
+  - first:
+      213: 4023877332778243192
+    second: TIdle_124
+  - first:
+      213: -7821611814818810156
+    second: TIdle_125
+  - first:
+      213: -870783615163889142
+    second: TIdle_126
+  - first:
+      213: -48361122535517782
+    second: TIdle_127
+  - first:
+      213: 109153587625408091
+    second: TIdle_128
+  - first:
+      213: -1170913047549575629
+    second: TIdle_129
+  - first:
+      213: -6325788100223505820
+    second: TIdle_130
+  - first:
+      213: 622793483623321086
+    second: TIdle_131
+  - first:
+      213: -2327954925255659661
+    second: TIdle_132
+  - first:
+      213: 75341141254187436
+    second: TIdle_133
+  - first:
+      213: 7677521105757311926
+    second: TIdle_134
+  - first:
+      213: 5185904035385553649
+    second: TIdle_135
+  - first:
+      213: 2205655551426646853
+    second: TIdle_136
+  - first:
+      213: 7279872297621404874
+    second: TIdle_137
+  - first:
+      213: 1921038468758657668
+    second: TIdle_138
+  - first:
+      213: -7992221855139610051
+    second: TIdle_139
+  - first:
+      213: 6481850537932396972
+    second: TIdle_140
+  - first:
+      213: -5057968202109052161
+    second: TIdle_141
+  - first:
+      213: 1188051337405072484
+    second: TIdle_142
+  - first:
+      213: -9118627997678527684
+    second: TIdle_143
+  - first:
+      213: -3502834218602146464
+    second: TIdle_144
+  - first:
+      213: 2935048703570951460
+    second: TIdle_145
+  - first:
+      213: -574436202333060981
+    second: TIdle_146
+  - first:
+      213: 7890122143837435444
+    second: TIdle_147
+  - first:
+      213: 9115648727852739478
+    second: TIdle_148
+  - first:
+      213: -3511741811516506775
+    second: TIdle_149
+  - first:
+      213: 5741672092573075696
+    second: TIdle_150
+  - first:
+      213: -7726978600565313639
+    second: TIdle_151
+  - first:
+      213: -2118044159004786977
+    second: TIdle_152
+  - first:
+      213: -6486129119703551103
+    second: TIdle_153
+  - first:
+      213: 4694528454630138175
+    second: TIdle_154
+  - first:
+      213: 7835024555368814133
+    second: TIdle_155
+  - first:
+      213: 8390551653308113184
+    second: TIdle_156
+  - first:
+      213: -3870705425309869665
+    second: TIdle_157
+  - first:
+      213: -7217568058034280326
+    second: TIdle_158
+  - first:
+      213: -500453920114149710
+    second: TIdle_159
+  - first:
+      213: -3763890689965238020
+    second: TIdle_160
+  - first:
+      213: -7159371884983020150
+    second: TIdle_161
+  - first:
+      213: -6177541936970801661
+    second: TIdle_162
+  - first:
+      213: 4065707972948672159
+    second: TIdle_163
+  - first:
+      213: 1716781833264357760
+    second: TIdle_164
+  - first:
+      213: 1060939323314383473
+    second: TIdle_165
+  - first:
+      213: 1198238977572389305
+    second: TIdle_166
+  - first:
+      213: 6726605204438194356
+    second: TIdle_167
+  - first:
+      213: -423842758591325386
+    second: TIdle_168
+  - first:
+      213: 8993969904560422158
+    second: TIdle_169
+  - first:
+      213: 7102334296427984704
+    second: TIdle_170
+  - first:
+      213: -7061143374549186357
+    second: TIdle_171
+  - first:
+      213: 7376244667726305060
+    second: TIdle_172
+  - first:
+      213: -3499139398393278160
+    second: TIdle_173
+  - first:
+      213: 1304455009525789654
+    second: TIdle_174
+  - first:
+      213: -4909598271909065704
+    second: TIdle_175
+  - first:
+      213: -1890509169886477741
+    second: TIdle_176
+  - first:
+      213: -2757782477711217412
+    second: TIdle_177
+  - first:
+      213: -9040937332551096952
+    second: TIdle_178
+  - first:
+      213: 5350077390229426514
+    second: TIdle_179
+  - first:
+      213: -1831457995974263784
+    second: TIdle_180
+  - first:
+      213: -3819818404292413812
+    second: TIdle_181
+  - first:
+      213: -6117863517167818840
+    second: TIdle_182
+  - first:
+      213: 5683180409855032235
+    second: TIdle_183
+  - first:
+      213: 4330444234947912916
+    second: TIdle_184
+  - first:
+      213: 3140620514549376645
+    second: TIdle_185
+  - first:
+      213: 9213175766282399990
+    second: TIdle_186
+  - first:
+      213: -533881920901691388
+    second: TIdle_187
+  - first:
+      213: 6885239681305832859
+    second: TIdle_188
+  - first:
+      213: -4421606568015167973
+    second: TIdle_189
+  - first:
+      213: -2620154767241088870
+    second: TIdle_190
+  - first:
+      213: 3517617636309190560
+    second: TIdle_191
+  - first:
+      213: -85156041101060173
+    second: TIdle_192
+  - first:
+      213: -5842363518942977926
+    second: TIdle_193
+  - first:
+      213: -7788788051214104734
+    second: TIdle_194
+  - first:
+      213: 3117788338629794228
+    second: TIdle_195
+  - first:
+      213: -7164889733340683320
+    second: TIdle_196
+  - first:
+      213: 3190291799616744021
+    second: TIdle_197
+  - first:
+      213: -1764147354155239933
+    second: TIdle_198
+  - first:
+      213: -7034974611458465426
+    second: TIdle_199
+  - first:
+      213: -139253093598153231
+    second: TIdle_200
+  - first:
+      213: 6462144051652928443
+    second: TIdle_201
+  - first:
+      213: -8710014332565832049
+    second: TIdle_202
+  - first:
+      213: -6746897962521223374
+    second: TIdle_203
+  - first:
+      213: 8266583650786295527
+    second: TIdle_204
+  - first:
+      213: 285058671469651884
+    second: TIdle_205
+  - first:
+      213: 1487123059748495559
+    second: TIdle_206
+  - first:
+      213: 8620773512991175403
+    second: TIdle_207
+  - first:
+      213: -3109328353831873300
+    second: TIdle_208
+  - first:
+      213: 8254214362500102935
+    second: TIdle_209
+  - first:
+      213: 1234984339909580729
+    second: TIdle_210
+  - first:
+      213: 4757136495061312414
+    second: TIdle_211
+  - first:
+      213: -8391350791565626076
+    second: TIdle_212
+  - first:
+      213: 2416068229348112228
+    second: TIdle_213
+  - first:
+      213: -1778278619990477184
+    second: TIdle_214
+  - first:
+      213: 776038291243835802
+    second: TIdle_215
+  - first:
+      213: -1046698949256844347
+    second: TIdle_216
+  - first:
+      213: 3502489737509332408
+    second: TIdle_217
+  - first:
+      213: 3741557626329497567
+    second: TIdle_218
+  - first:
+      213: -4207311708285997573
+    second: TIdle_219
+  - first:
+      213: 4595329822548492876
+    second: TIdle_220
+  - first:
+      213: 6301654515488179047
+    second: TIdle_221
+  - first:
+      213: 8468148162623796673
+    second: TIdle_222
+  - first:
+      213: 972682704975953287
+    second: TIdle_223
+  - first:
+      213: -4769320858248960664
+    second: TIdle_224
+  - first:
+      213: -8258985517566859472
+    second: TIdle_225
+  - first:
+      213: 5425846110561755694
+    second: TIdle_226
+  - first:
+      213: 2980641129950925367
+    second: TIdle_227
+  - first:
+      213: 3061745671063377732
+    second: TIdle_228
+  - first:
+      213: -6074125184033896944
+    second: TIdle_229
+  - first:
+      213: 8876131238150627945
+    second: TIdle_230
+  - first:
+      213: 6157305655620901658
+    second: TIdle_231
+  - first:
+      213: 8501884008544323306
+    second: TIdle_232
+  - first:
+      213: 790141619484471372
+    second: TIdle_233
+  - first:
+      213: -6254054166881938757
+    second: TIdle_234
+  - first:
+      213: 7878387064401197109
+    second: TIdle_235
+  - first:
+      213: 3238689761786670497
+    second: TIdle_236
+  - first:
+      213: -785237267580410450
+    second: TIdle_237
+  - first:
+      213: -7105011039484880911
+    second: TIdle_238
+  - first:
+      213: -5649895437649374788
+    second: TIdle_239
+  - first:
+      213: -7084546405728044979
+    second: TIdle_240
+  - first:
+      213: -4752216976068985149
+    second: TIdle_241
+  - first:
+      213: 6142248886804482455
+    second: TIdle_242
+  - first:
+      213: 6964844891680742673
+    second: TIdle_243
+  - first:
+      213: 1220937860360512604
+    second: TIdle_244
+  - first:
+      213: -1721495215219770846
+    second: TIdle_245
+  - first:
+      213: 1424112457668206896
+    second: TIdle_246
+  - first:
+      213: -982601005959413079
+    second: TIdle_247
+  - first:
+      213: -8972113968884855190
+    second: TIdle_248
+  - first:
+      213: -1970126350755414414
+    second: TIdle_249
+  - first:
+      213: 6537721156953056188
+    second: TIdle_250
+  - first:
+      213: 7476759236311724175
+    second: TIdle_251
+  - first:
+      213: -2376362018768570691
+    second: TIdle_252
+  - first:
+      213: 9086084654848187034
+    second: TIdle_253
+  - first:
+      213: -250180332315928490
+    second: TIdle_254
+  - first:
+      213: -7690740634003564533
+    second: TIdle_255
+  - first:
+      213: 6216496258789007758
+    second: TIdle_256
+  - first:
+      213: 7122316821496770392
+    second: TIdle_257
+  - first:
+      213: -8619031441397824953
+    second: TIdle_258
+  - first:
+      213: 6664201795323423804
+    second: TIdle_259
+  - first:
+      213: -8706416438076739116
+    second: TIdle_260
+  - first:
+      213: 1758753451206959676
+    second: TIdle_261
+  - first:
+      213: -8696207068920223556
+    second: TIdle_262
+  - first:
+      213: 8358600617795217951
+    second: TIdle_263
+  - first:
+      213: -3366992898167642403
+    second: TIdle_264
+  - first:
+      213: -8819283947922167952
+    second: TIdle_265
+  - first:
+      213: -1225785666932279325
+    second: TIdle_266
+  - first:
+      213: -7666837715617740066
+    second: TIdle_267
+  - first:
+      213: 6839947553174877643
+    second: TIdle_268
+  - first:
+      213: 7234607998655310664
+    second: TIdle_269
+  - first:
+      213: 4066898253157084087
+    second: TIdle_270
+  - first:
+      213: 4440478250803664427
+    second: TIdle_271
+  - first:
+      213: -4064030600663417009
+    second: TIdle_272
+  - first:
+      213: -204028485662127846
+    second: TIdle_273
+  - first:
+      213: 7099504181614606709
+    second: TIdle_274
+  - first:
+      213: -4082683280971712540
+    second: TIdle_275
+  - first:
+      213: 7928953900780169214
+    second: TIdle_276
+  - first:
+      213: 8791527634460552429
+    second: TIdle_277
+  - first:
+      213: 300904296543535826
+    second: TIdle_278
+  - first:
+      213: 798158442366979373
+    second: TIdle_279
+  - first:
+      213: 5605617614380737961
+    second: TIdle_280
+  - first:
+      213: -8900771424349660451
+    second: TIdle_281
+  - first:
+      213: -8809842137574834541
+    second: TIdle_282
+  - first:
+      213: -278721438362150884
+    second: TIdle_283
+  - first:
+      213: -3689845621192073377
+    second: TIdle_284
+  - first:
+      213: 7373131073278787549
+    second: TIdle_285
+  - first:
+      213: 6135905257855018178
+    second: TIdle_286
+  - first:
+      213: 8365330225322918249
+    second: TIdle_287
+  - first:
+      213: 3652628368847091116
+    second: TIdle_288
+  - first:
+      213: 8593350556114797560
+    second: TIdle_289
+  - first:
+      213: -219830617920392372
+    second: TIdle_290
+  - first:
+      213: 323166536072464876
+    second: TIdle_291
+  - first:
+      213: 6042739896876179899
+    second: TIdle_292
+  - first:
+      213: -5404689501825821272
+    second: TIdle_293
+  - first:
+      213: -4096192728859778442
+    second: TIdle_294
+  - first:
+      213: 4176091096486766168
+    second: TIdle_295
+  - first:
+      213: 1843901151185656382
+    second: TIdle_296
+  - first:
+      213: -2869112102382585788
+    second: TIdle_297
+  - first:
+      213: 8430162921100373227
+    second: TIdle_298
+  - first:
+      213: 1315227674430212804
+    second: TIdle_299
+  - first:
+      213: -4561830030719448312
+    second: TIdle_300
+  - first:
+      213: 9095108781174646944
+    second: TIdle_301
+  - first:
+      213: 3257623718725574214
+    second: TIdle_302
+  - first:
+      213: -2730200229582501504
+    second: TIdle_303
+  - first:
+      213: -7862040325452909470
+    second: TIdle_304
+  - first:
+      213: -4490612675858592863
+    second: TIdle_305
+  - first:
+      213: -7598676032439861810
+    second: TIdle_306
+  - first:
+      213: 1941031172949326038
+    second: TIdle_307
+  - first:
+      213: -7555854834450480237
+    second: TIdle_308
+  - first:
+      213: 5067971567091768121
+    second: TIdle_309
+  - first:
+      213: -6591932108596571755
+    second: TIdle_310
+  - first:
+      213: -446404684450117014
+    second: TIdle_311
+  - first:
+      213: 7995571034935121536
+    second: TIdle_312
+  - first:
+      213: 4073005845772402155
+    second: TIdle_313
+  - first:
+      213: -8425595830919127018
+    second: TIdle_314
+  - first:
+      213: 672541683481459102
+    second: TIdle_315
+  - first:
+      213: -1271376719375075397
+    second: TIdle_316
+  - first:
+      213: -5750582049964534527
+    second: TIdle_317
+  - first:
+      213: -2549522822088460216
+    second: TIdle_318
+  - first:
+      213: 4487186243087303084
+    second: TIdle_319
+  - first:
+      213: 5382244812209565356
+    second: TIdle_320
+  - first:
+      213: 5300144700807244313
+    second: TIdle_321
+  - first:
+      213: 4967508584145539290
+    second: TIdle_322
+  - first:
+      213: -7723234700151839070
+    second: TIdle_323
+  - first:
+      213: -570406952510752720
+    second: TIdle_324
+  - first:
+      213: 5056615886041533831
+    second: TIdle_325
+  - first:
+      213: 5629551466784639826
+    second: TIdle_326
+  - first:
+      213: 7888385754496497497
+    second: TIdle_327
+  - first:
+      213: 2282620968402735698
+    second: TIdle_328
+  - first:
+      213: -7702776706146540454
+    second: TIdle_329
+  - first:
+      213: 4799011461802986943
+    second: TIdle_330
+  - first:
+      213: 1121720984995848310
+    second: TIdle_331
+  - first:
+      213: -7696993954586701104
+    second: TIdle_332
+  - first:
+      213: 2269464735302438578
+    second: TIdle_333
+  - first:
+      213: -5161749593822503094
+    second: TIdle_334
+  - first:
+      213: 7326369721823582839
+    second: TIdle_335
+  - first:
+      213: -8807205323624868078
+    second: TIdle_336
+  - first:
+      213: 8952909189669456625
+    second: TIdle_337
+  - first:
+      213: 721597526519545471
+    second: TIdle_338
+  - first:
+      213: -3905481208423422089
+    second: TIdle_339
+  - first:
+      213: -6846957761271049983
+    second: TIdle_340
+  - first:
+      213: -3838267795094148969
+    second: TIdle_341
+  - first:
+      213: 1036680826685114608
+    second: TIdle_342
+  - first:
+      213: 3571549928196543994
+    second: TIdle_343
+  - first:
+      213: -4526384555774440040
+    second: TIdle_344
+  - first:
+      213: 6381670588015487166
+    second: TIdle_345
+  - first:
+      213: -2200596897064173752
+    second: TIdle_346
+  - first:
+      213: 8320968653192157735
+    second: TIdle_347
+  - first:
+      213: 7563564634684772521
+    second: TIdle_348
+  - first:
+      213: 3045896578324286585
+    second: TIdle_349
+  - first:
+      213: -2904150042561214978
+    second: TIdle_350
+  - first:
+      213: 9137489962487410658
+    second: TIdle_351
+  - first:
+      213: 940024239633738975
+    second: TIdle_352
+  - first:
+      213: 358816242761879609
+    second: TIdle_353
+  - first:
+      213: 1620025605964854747
+    second: TIdle_354
+  - first:
+      213: -1962401048713804565
+    second: TIdle_355
+  - first:
+      213: 791557535947487915
+    second: TIdle_356
+  - first:
+      213: 1306687541127023385
+    second: TIdle_357
+  - first:
+      213: 6918398312951952480
+    second: TIdle_358
+  - first:
+      213: 752003581848369959
+    second: TIdle_359
+  - first:
+      213: -7930957818873718795
+    second: TIdle_360
+  - first:
+      213: -2858955510959011890
+    second: TIdle_361
+  - first:
+      213: -472937961123261706
+    second: TIdle_362
+  - first:
+      213: -3972448834924322864
+    second: TIdle_363
+  - first:
+      213: 9197864957905412692
+    second: TIdle_364
+  - first:
+      213: -4773910024147199328
+    second: TIdle_365
+  - first:
+      213: 8215287921028078875
+    second: TIdle_366
+  - first:
+      213: -5856658439193343664
+    second: TIdle_367
+  - first:
+      213: -5549735084146342230
+    second: TIdle_368
+  - first:
+      213: 578193326355271864
+    second: TIdle_369
+  - first:
+      213: 4066204381775392174
+    second: TIdle_370
+  - first:
+      213: -967404321288915085
+    second: TIdle_371
+  - first:
+      213: 7501527933320064930
+    second: TIdle_372
+  - first:
+      213: 7021319288800432038
+    second: TIdle_373
+  - first:
+      213: -2261005531047016719
+    second: TIdle_374
+  - first:
+      213: 4235390792569181384
+    second: TIdle_375
+  - first:
+      213: -4088148155856922680
+    second: TIdle_376
+  - first:
+      213: -5255993275074272312
+    second: TIdle_377
+  - first:
+      213: 2011131639090564708
+    second: TIdle_378
+  - first:
+      213: -3363937596575086739
+    second: TIdle_379
+  - first:
+      213: -597020791125278608
+    second: TIdle_380
+  - first:
+      213: 6478425925803177518
+    second: TIdle_381
+  - first:
+      213: 4591449767241602426
+    second: TIdle_382
+  - first:
+      213: -1956739321014313248
+    second: TIdle_383
+  - first:
+      213: 304921863959882023
+    second: TIdle_384
+  - first:
+      213: -4027964156119810568
+    second: TIdle_385
+  - first:
+      213: -9061869498673800656
+    second: TIdle_386
+  - first:
+      213: -1345048147122944127
+    second: TIdle_387
+  - first:
+      213: -6878430384115765990
+    second: TIdle_388
+  - first:
+      213: 5946373247311051761
+    second: TIdle_389
+  - first:
+      213: -3793180601607231272
+    second: TIdle_390
+  - first:
+      213: -4609701710454029261
+    second: TIdle_391
+  - first:
+      213: 8608518074635999980
+    second: TIdle_392
+  - first:
+      213: 4536132270885282036
+    second: TIdle_393
+  - first:
+      213: 4595009065536191560
+    second: TIdle_394
+  - first:
+      213: 831287340883984156
+    second: TIdle_395
+  - first:
+      213: 4586663576987835095
+    second: TIdle_396
+  - first:
+      213: -5057970628280724401
+    second: TIdle_397
+  - first:
+      213: -8843793678152108737
+    second: TIdle_398
+  - first:
+      213: -3693128612982483877
+    second: TIdle_399
+  - first:
+      213: 2832471988013304312
+    second: TIdle_400
+  - first:
+      213: 4368957127760149928
+    second: TIdle_401
+  - first:
+      213: 3044376117202439419
+    second: TIdle_402
+  - first:
+      213: -5929416867947654045
+    second: TIdle_403
+  - first:
+      213: 4431678614005596961
+    second: TIdle_404
+  - first:
+      213: 6356313913149637269
+    second: TIdle_405
+  - first:
+      213: 4422696782121960800
+    second: TIdle_406
+  - first:
+      213: 8412636995783936720
+    second: TIdle_407
+  - first:
+      213: 7117741668004246910
+    second: TIdle_408
+  - first:
+      213: -4926634934727173307
+    second: TIdle_409
+  - first:
+      213: -4544830605028998036
+    second: TIdle_410
+  - first:
+      213: -4865913690195646558
+    second: TIdle_411
+  - first:
+      213: -3366442184063315979
+    second: TIdle_412
+  - first:
+      213: 3371576412152946863
+    second: TIdle_413
+  - first:
+      213: -4906895929049842314
+    second: TIdle_414
+  - first:
+      213: -1892718301642653378
+    second: TIdle_415
+  - first:
+      213: -2521891988838591030
+    second: TIdle_416
+  - first:
+      213: 6822435681803554653
+    second: TIdle_417
+  - first:
+      213: 1738094237131421461
+    second: TIdle_418
+  - first:
+      213: -7351551843976474690
+    second: TIdle_419
+  - first:
+      213: 1305600981953254430
+    second: TIdle_420
+  - first:
+      213: 404333594004586209
+    second: TIdle_421
+  - first:
+      213: -5010918508435454887
+    second: TIdle_422
+  - first:
+      213: -3919213494190110291
+    second: TIdle_423
+  - first:
+      213: -1998743582469958895
+    second: TIdle_424
+  - first:
+      213: -4007066539032061629
+    second: TIdle_425
+  - first:
+      213: -1506645919571375366
+    second: TIdle_426
+  - first:
+      213: -5518556634005994808
+    second: TIdle_427
+  - first:
+      213: -3794513368359726992
+    second: TIdle_428
+  - first:
+      213: 6190775508240762096
+    second: TIdle_429
+  - first:
+      213: 94172339024596563
+    second: TIdle_430
+  - first:
+      213: 5371385007013782986
+    second: TIdle_431
+  - first:
+      213: -9083999692426632121
+    second: TIdle_432
+  - first:
+      213: -647513335379355835
+    second: TIdle_433
+  - first:
+      213: -652200832858067223
+    second: TIdle_434
+  - first:
+      213: 9064741589075375141
+    second: TIdle_435
+  - first:
+      213: 9004713643792349022
+    second: TIdle_436
+  - first:
+      213: -8483235560257974078
+    second: TIdle_437
+  - first:
+      213: -7874732650940564629
+    second: TIdle_438
+  - first:
+      213: 2113646380686287215
+    second: TIdle_439
+  - first:
+      213: 4979641286255975493
+    second: TIdle_440
+  - first:
+      213: -1679258181724605603
+    second: TIdle_441
+  - first:
+      213: -5271254760023343297
+    second: TIdle_442
+  - first:
+      213: 8764615757917244402
+    second: TIdle_443
+  - first:
+      213: 2675260854463385521
+    second: TIdle_444
+  - first:
+      213: -2708556076202372007
+    second: TIdle_445
+  - first:
+      213: -8737820717986235660
+    second: TIdle_446
+  - first:
+      213: -311083533146739080
+    second: TIdle_447
+  - first:
+      213: -6662574145377133980
+    second: TIdle_448
+  - first:
+      213: 711281167872251545
+    second: TIdle_449
+  - first:
+      213: 1546032156958030790
+    second: TIdle_450
+  - first:
+      213: 4100110918261267910
+    second: TIdle_451
+  - first:
+      213: 7868858726661006744
+    second: TIdle_452
+  - first:
+      213: 4451188869966251205
+    second: TIdle_453
+  - first:
+      213: -1884421330505630835
+    second: TIdle_454
+  - first:
+      213: -8110147373776755224
+    second: TIdle_455
+  - first:
+      213: -7588906223732214012
+    second: TIdle_456
+  - first:
+      213: -689912349268012770
+    second: TIdle_457
+  - first:
+      213: -4990983918856783935
+    second: TIdle_458
+  - first:
+      213: 1589338412989685431
+    second: TIdle_459
+  - first:
+      213: 5766915095711013408
+    second: TIdle_460
+  - first:
+      213: -4170974587655381782
+    second: TIdle_461
+  - first:
+      213: 4514434219311908526
+    second: TIdle_462
+  - first:
+      213: 7492969582222244550
+    second: TIdle_463
+  - first:
+      213: 4616560616046488728
+    second: TIdle_464
+  - first:
+      213: 7750122506903361297
+    second: TIdle_465
+  - first:
+      213: 8866012331526247090
+    second: TIdle_466
+  - first:
+      213: 1105604569286554774
+    second: TIdle_467
+  - first:
+      213: -5299031703924842968
+    second: TIdle_468
+  - first:
+      213: -8183160750608387590
+    second: TIdle_469
+  - first:
+      213: -4037060066831751640
+    second: TIdle_470
+  - first:
+      213: 6332791104391932976
+    second: TIdle_471
+  - first:
+      213: -5877282135524576769
+    second: TIdle_472
+  - first:
+      213: -2020233001468763786
+    second: TIdle_473
+  - first:
+      213: 1813528619214113108
+    second: TIdle_474
+  - first:
+      213: -3186610951408682380
+    second: TIdle_475
+  - first:
+      213: -7676134013004562639
+    second: TIdle_476
+  - first:
+      213: -3591846817666866984
+    second: TIdle_477
+  - first:
+      213: -3398022722034862864
+    second: TIdle_478
+  - first:
+      213: 7031064490980746761
+    second: TIdle_479
+  - first:
+      213: -7998108899572919184
+    second: TIdle_480
+  - first:
+      213: 6956446365009138925
+    second: TIdle_481
+  - first:
+      213: 6423573101788471268
+    second: TIdle_482
+  - first:
+      213: 4839391466091829213
+    second: TIdle_483
+  - first:
+      213: -2129717117017336210
+    second: TIdle_484
+  - first:
+      213: -2988652669759266769
+    second: TIdle_485
+  - first:
+      213: 5635198454662882227
+    second: TIdle_486
+  - first:
+      213: -8977475089909630898
+    second: TIdle_487
+  - first:
+      213: -2182972854676324106
+    second: TIdle_488
+  - first:
+      213: 1461623683126419829
+    second: TIdle_489
+  - first:
+      213: 9098166687952492283
+    second: TIdle_490
+  - first:
+      213: 8447612502120880503
+    second: TIdle_491
+  - first:
+      213: 554619219075222606
+    second: TIdle_492
+  - first:
+      213: -3152327271133117934
+    second: TIdle_493
+  - first:
+      213: -1947795298791981914
+    second: TIdle_494
+  - first:
+      213: -7013438136034936870
+    second: TIdle_495
+  - first:
+      213: -7934055182535525266
+    second: TIdle_496
+  - first:
+      213: 6738949987982174918
+    second: TIdle_497
+  - first:
+      213: -3285772136159252442
+    second: TIdle_498
+  - first:
+      213: -7688995173414955079
+    second: TIdle_499
+  - first:
+      213: -7399339997846801059
+    second: TIdle_500
+  - first:
+      213: -3534751672387350899
+    second: TIdle_501
+  - first:
+      213: 3481297513727192391
+    second: TIdle_502
+  - first:
+      213: 4200506787241621269
+    second: TIdle_503
+  - first:
+      213: 8563699691968895784
+    second: TIdle_504
+  - first:
+      213: -3473165213691086890
+    second: TIdle_505
+  - first:
+      213: -3059987238352490326
+    second: TIdle_506
+  - first:
+      213: -1107816294381140364
+    second: TIdle_507
+  - first:
+      213: -4321496773553958846
+    second: TIdle_508
+  - first:
+      213: -4597637687927156385
+    second: TIdle_509
+  - first:
+      213: 920843701819234829
+    second: TIdle_510
+  - first:
+      213: -4259499324749945163
+    second: TIdle_511
+  - first:
+      213: 4578490150214194517
+    second: TIdle_512
+  - first:
+      213: -8231033526341403552
+    second: TIdle_513
+  - first:
+      213: -464602790718874499
+    second: TIdle_514
+  - first:
+      213: -7815860251892381127
+    second: TIdle_515
+  - first:
+      213: -6830972606244858861
+    second: TIdle_516
+  - first:
+      213: -3629670028283179474
+    second: TIdle_517
+  - first:
+      213: 5602950093609834567
+    second: TIdle_518
+  - first:
+      213: 5825272908863806888
+    second: TIdle_519
+  - first:
+      213: -8512153014777209296
+    second: TIdle_520
+  - first:
+      213: 4290602811384977282
+    second: TIdle_521
+  - first:
+      213: 314815978713985202
+    second: TIdle_522
+  - first:
+      213: 7557370138258415061
+    second: TIdle_523
+  - first:
+      213: 662880402658963877
+    second: TIdle_524
+  - first:
+      213: 5297104370361825802
+    second: TIdle_525
+  - first:
+      213: -917368856669833908
+    second: TIdle_526
+  - first:
+      213: -688273269926378486
+    second: TIdle_527
+  - first:
+      213: -1563445573859416151
+    second: TIdle_528
+  - first:
+      213: 2198981532310922608
+    second: TIdle_529
+  - first:
+      213: 1120644648504698320
+    second: TIdle_530
+  - first:
+      213: 8028102917541061141
+    second: TIdle_531
+  - first:
+      213: -8140395148930539753
+    second: TIdle_532
+  - first:
+      213: -3163813170177026413
+    second: TIdle_533
+  - first:
+      213: 3102060595730490939
+    second: TIdle_534
+  - first:
+      213: -1929954653981436430
+    second: TIdle_535
+  - first:
+      213: -3335200361068377310
+    second: TIdle_536
+  - first:
+      213: -7789340211812517333
+    second: TIdle_537
+  - first:
+      213: 1008716045937251861
+    second: TIdle_538
+  - first:
+      213: 2165211266788141395
+    second: TIdle_539
+  - first:
+      213: -6182205999348793635
+    second: TIdle_540
+  - first:
+      213: 5845971427461579039
+    second: TIdle_541
+  - first:
+      213: 4823164106215280421
+    second: TIdle_542
+  - first:
+      213: 3893064187241333798
+    second: TIdle_543
+  - first:
+      213: -5091588548953446585
+    second: TIdle_544
+  - first:
+      213: 878783984131296881
+    second: TIdle_545
+  - first:
+      213: 8005577470436631322
+    second: TIdle_546
+  - first:
+      213: -4403791210877121080
+    second: TIdle_547
+  - first:
+      213: -1363882409290721975
+    second: TIdle_548
+  - first:
+      213: -4411235599036274851
+    second: TIdle_549
+  - first:
+      213: 4372868658443766526
+    second: TIdle_550
+  - first:
+      213: 924385853212471236
+    second: TIdle_551
+  - first:
+      213: 3851035120316070575
+    second: TIdle_552
+  - first:
+      213: 3584678315753509273
+    second: TIdle_553
+  - first:
+      213: -2983153827398207793
+    second: TIdle_554
+  - first:
+      213: -1769892470572312111
+    second: TIdle_555
+  - first:
+      213: -8805241296410999502
+    second: TIdle_556
+  - first:
+      213: -7350922666435774827
+    second: TIdle_557
+  - first:
+      213: 4968456971317425816
+    second: TIdle_558
+  - first:
+      213: -8900784446569411537
+    second: TIdle_559
+  - first:
+      213: -5908709852304477051
+    second: TIdle_560
+  - first:
+      213: 1795072645946010687
+    second: TIdle_561
+  - first:
+      213: -8014579900183622846
+    second: TIdle_562
+  - first:
+      213: -8770750507866620453
+    second: TIdle_563
+  - first:
+      213: -1953804095690471411
+    second: TIdle_564
+  - first:
+      213: -364092641398705171
+    second: TIdle_565
+  - first:
+      213: 253502696078848310
+    second: TIdle_566
+  - first:
+      213: 2991351037019396320
+    second: TIdle_567
+  - first:
+      213: 5879687160051093510
+    second: TIdle_568
+  - first:
+      213: 337664311030448922
+    second: TIdle_569
+  - first:
+      213: 8439853123750171612
+    second: TIdle_570
+  - first:
+      213: -5444813389939555518
+    second: TIdle_571
+  - first:
+      213: 4554241479871030954
+    second: TIdle_572
+  - first:
+      213: 9004329606353135569
+    second: TIdle_573
+  - first:
+      213: -6997537725108798966
+    second: TIdle_574
+  - first:
+      213: 1859228151671965822
+    second: TIdle_575
+  - first:
+      213: 1742445254826003126
+    second: TIdle_576
+  - first:
+      213: -1608922162971437588
+    second: TIdle_577
+  - first:
+      213: 4301690266151010982
+    second: TIdle_578
+  - first:
+      213: 1583719379673764994
+    second: TIdle_579
+  - first:
+      213: -4862092090274118035
+    second: TIdle_580
+  - first:
+      213: -6085404611358322396
+    second: TIdle_581
+  - first:
+      213: 8486904533204227847
+    second: TIdle_582
+  - first:
+      213: -469285689583945750
+    second: TIdle_583
+  - first:
+      213: -8503002440833259943
+    second: TIdle_584
+  - first:
+      213: 1157291080109650160
+    second: TIdle_585
+  - first:
+      213: 9088972530401267875
+    second: TIdle_586
+  - first:
+      213: -6748742430899046865
+    second: TIdle_587
+  - first:
+      213: -4425375495563272025
+    second: TIdle_588
+  - first:
+      213: 112700526838870567
+    second: TIdle_589
+  - first:
+      213: -3154230224738500101
+    second: TIdle_590
+  - first:
+      213: 6722257472755228987
+    second: TIdle_591
+  - first:
+      213: -3275230870903792861
+    second: TIdle_592
+  - first:
+      213: 8190854826990861314
+    second: TIdle_593
+  - first:
+      213: 7057211505639333413
+    second: TIdle_594
+  - first:
+      213: -6326656161483803354
+    second: TIdle_595
+  - first:
+      213: -3443368987585260457
+    second: TIdle_596
+  - first:
+      213: -7375238622497145975
+    second: TIdle_597
+  - first:
+      213: 8062443963697358147
+    second: TIdle_598
+  - first:
+      213: -7705700254818857691
+    second: TIdle_599
+  - first:
+      213: 8874187471170904136
+    second: TIdle_600
+  - first:
+      213: 4345867611805626080
+    second: TIdle_601
+  - first:
+      213: -6409896441561169327
+    second: TIdle_602
+  - first:
+      213: -9016751899141327694
+    second: TIdle_603
+  - first:
+      213: -6396348372308831678
+    second: TIdle_604
+  - first:
+      213: 8567433467147563185
+    second: TIdle_605
+  - first:
+      213: 3584374957476812198
+    second: TIdle_606
+  - first:
+      213: -1716274010238940838
+    second: TIdle_607
+  - first:
+      213: -2737224002149147084
+    second: TIdle_608
+  - first:
+      213: 3706011318554777603
+    second: TIdle_609
+  - first:
+      213: 3532552114275655198
+    second: TIdle_610
+  - first:
+      213: 3071356126198287380
+    second: TIdle_611
+  - first:
+      213: 4620649149762748940
+    second: TIdle_612
+  - first:
+      213: 2416265392517782710
+    second: TIdle_613
+  - first:
+      213: -6032814563377850148
+    second: TIdle_614
+  - first:
+      213: -6719164913239422642
+    second: TIdle_615
+  - first:
+      213: 2040526135230421822
+    second: TIdle_616
+  - first:
+      213: 90019840216885994
+    second: TIdle_617
+  - first:
+      213: -4248284590683900785
+    second: TIdle_618
+  - first:
+      213: 292507332691159713
+    second: TIdle_619
+  - first:
+      213: 8722284762735063467
+    second: TIdle_620
+  - first:
+      213: 6509793477988133417
+    second: TIdle_621
+  - first:
+      213: 6466431050399996698
+    second: TIdle_622
+  - first:
+      213: 1244543766055203891
+    second: TIdle_623
+  - first:
+      213: 8314208458957373738
+    second: TIdle_624
+  - first:
+      213: -6091581712950255386
+    second: TIdle_625
+  - first:
+      213: -7733328724845641121
+    second: TIdle_626
+  - first:
+      213: 5770964896687728777
+    second: TIdle_627
+  - first:
+      213: 6917189803798678749
+    second: TIdle_628
+  - first:
+      213: 4824413626656933147
+    second: TIdle_629
+  - first:
+      213: 2201880322952476815
+    second: TIdle_630
+  - first:
+      213: -8484754782751155530
+    second: TIdle_631
+  - first:
+      213: 5335856017196635882
+    second: TIdle_632
+  - first:
+      213: 8814126729050236400
+    second: TIdle_633
+  - first:
+      213: 6931727759682056228
+    second: TIdle_634
+  - first:
+      213: -6246749748731280148
+    second: TIdle_635
+  - first:
+      213: 4108994152003645506
+    second: TIdle_636
+  - first:
+      213: 8709643688072844153
+    second: TIdle_637
+  - first:
+      213: 9133938204704727867
+    second: TIdle_638
+  - first:
+      213: -8526393245127098919
+    second: TIdle_639
+  - first:
+      213: -6185470745544003598
+    second: TIdle_640
+  - first:
+      213: -6714853703209989103
+    second: TIdle_641
+  - first:
+      213: -4286301680426453477
+    second: TIdle_642
+  - first:
+      213: -4274304695620283254
+    second: TIdle_643
+  - first:
+      213: -7986209919166875738
+    second: TIdle_644
+  - first:
+      213: -927777005714450100
+    second: TIdle_645
+  - first:
+      213: 5028418240565390986
+    second: TIdle_646
+  - first:
+      213: -5324158046982319204
+    second: TIdle_647
+  - first:
+      213: 716929673823436832
+    second: TIdle_648
+  - first:
+      213: 942771080053990605
+    second: TIdle_649
+  - first:
+      213: 3753607350011307779
+    second: TIdle_650
+  - first:
+      213: -2893630791219169548
+    second: TIdle_651
+  - first:
+      213: 4138007624330443516
+    second: TIdle_652
+  - first:
+      213: 6788854398208145623
+    second: TIdle_653
+  - first:
+      213: -7094881785432545263
+    second: TIdle_654
+  - first:
+      213: -1242296381505758368
+    second: TIdle_655
+  - first:
+      213: 3818992125550063455
+    second: TIdle_656
+  - first:
+      213: -8728874916166708885
+    second: TIdle_657
+  - first:
+      213: -5918890396209566360
+    second: TIdle_658
+  - first:
+      213: -8553700782491416601
+    second: TIdle_659
+  - first:
+      213: 3647414819019078766
+    second: TIdle_660
+  - first:
+      213: -7676070455259146125
+    second: TIdle_661
+  - first:
+      213: 4752698362070386144
+    second: TIdle_662
+  - first:
+      213: 2147564876098826416
+    second: TIdle_663
+  - first:
+      213: 6107376618765452199
+    second: TIdle_664
+  - first:
+      213: 8488732431918940858
+    second: TIdle_665
+  - first:
+      213: 7964793334784119537
+    second: TIdle_666
+  - first:
+      213: -5970463472371885669
+    second: TIdle_667
+  - first:
+      213: 7924001846529801546
+    second: TIdle_668
+  - first:
+      213: 3775199851494463054
+    second: TIdle_669
+  - first:
+      213: -9093120831726945184
+    second: TIdle_670
+  - first:
+      213: -6309635491546146634
+    second: TIdle_671
+  - first:
+      213: 7229214761579823871
+    second: TIdle_672
+  - first:
+      213: -2870046422697787253
+    second: TIdle_673
+  - first:
+      213: -7751685072974859571
+    second: TIdle_674
+  - first:
+      213: 7212222048632982434
+    second: TIdle_675
+  - first:
+      213: -3416635986300944457
+    second: TIdle_676
+  - first:
+      213: -6288235599045296544
+    second: TIdle_677
+  - first:
+      213: -3157452170539430105
+    second: TIdle_678
+  - first:
+      213: -991810493467383057
+    second: TIdle_679
+  - first:
+      213: -9084830739001683619
+    second: TIdle_680
+  - first:
+      213: 2912259208743607076
+    second: TIdle_681
+  - first:
+      213: 5865952210322043086
+    second: TIdle_682
+  - first:
+      213: -3927796105587263581
+    second: TIdle_683
+  - first:
+      213: 5593923592586523284
+    second: TIdle_684
+  - first:
+      213: -6008861588939874702
+    second: TIdle_685
+  - first:
+      213: -2843643873778283458
+    second: TIdle_686
+  - first:
+      213: -24822432179992295
+    second: TIdle_687
+  - first:
+      213: 1698104524231828014
+    second: TIdle_688
+  - first:
+      213: -1610811632603530093
+    second: TIdle_689
+  - first:
+      213: 2727393647595780713
+    second: TIdle_690
+  - first:
+      213: 974253038527306005
+    second: TIdle_691
+  - first:
+      213: 3119023650750170826
+    second: TIdle_692
+  - first:
+      213: 6335435820724815870
+    second: TIdle_693
+  - first:
+      213: -5823854997272980948
+    second: TIdle_694
+  - first:
+      213: -988638133855709337
+    second: TIdle_695
+  - first:
+      213: -239827496972173326
+    second: TIdle_696
+  - first:
+      213: 637377441567222757
+    second: TIdle_697
+  - first:
+      213: -7421636356445047500
+    second: TIdle_698
+  - first:
+      213: 3000370166286640012
+    second: TIdle_699
+  - first:
+      213: 6740615206739988208
+    second: TIdle_700
+  - first:
+      213: 7672179066486864416
+    second: TIdle_701
+  - first:
+      213: 8148746206028814059
+    second: TIdle_702
+  - first:
+      213: 4690763991592820282
+    second: TIdle_703
+  - first:
+      213: -5111856665742229795
+    second: TIdle_704
+  - first:
+      213: -4640413362084922024
+    second: TIdle_705
+  - first:
+      213: -1117325759510599409
+    second: TIdle_706
+  - first:
+      213: 416388410051758439
+    second: TIdle_707
+  - first:
+      213: -6934175479334069039
+    second: TIdle_708
+  - first:
+      213: 8844340700181221702
+    second: TIdle_709
+  - first:
+      213: -3559859468239378565
+    second: TIdle_710
+  - first:
+      213: -7938907142156949110
+    second: TIdle_711
+  - first:
+      213: -7817217365139310589
+    second: TIdle_712
+  - first:
+      213: 2389863719232071214
+    second: TIdle_713
+  - first:
+      213: -960400579477006050
+    second: TIdle_714
+  - first:
+      213: 2849856367358606708
+    second: TIdle_715
+  - first:
+      213: 1360937186134938547
+    second: TIdle_716
+  - first:
+      213: -7578563946114554117
+    second: TIdle_717
+  - first:
+      213: 6574650744511457847
+    second: TIdle_718
+  - first:
+      213: -7039084295686434360
+    second: TIdle_719
+  - first:
+      213: 5314547410875145583
+    second: TIdle_720
+  - first:
+      213: 1321456931865845445
+    second: TIdle_721
+  - first:
+      213: -4440298311682238765
+    second: TIdle_722
+  - first:
+      213: 8563535621452942602
+    second: TIdle_723
+  - first:
+      213: 890620022520781803
+    second: TIdle_724
+  - first:
+      213: 1802160737758779534
+    second: TIdle_725
+  - first:
+      213: 1963679797500251066
+    second: TIdle_726
+  - first:
+      213: 3272412640337437166
+    second: TIdle_727
+  - first:
+      213: -9102485861422172101
+    second: TIdle_728
+  - first:
+      213: 6232757995826061717
+    second: TIdle_729
+  - first:
+      213: -3758108036071377836
+    second: TIdle_730
+  - first:
+      213: 7176102538554693615
+    second: TIdle_731
+  - first:
+      213: -8190996869298188983
+    second: TIdle_732
+  - first:
+      213: 5312176364516576218
+    second: TIdle_733
+  - first:
+      213: 4773750214081235021
+    second: TIdle_734
+  - first:
+      213: -2224508113093519593
+    second: TIdle_735
+  - first:
+      213: 1160486608520606486
+    second: TIdle_736
+  - first:
+      213: -542892607596106091
+    second: TIdle_737
+  - first:
+      213: -3040049124492259009
+    second: TIdle_738
+  - first:
+      213: 8628501528713806499
+    second: TIdle_739
+  - first:
+      213: 6925795265484391311
+    second: TIdle_740
+  - first:
+      213: -6141233052018326438
+    second: TIdle_741
+  - first:
+      213: 3952767745033480953
+    second: TIdle_742
+  - first:
+      213: 6405376791721966437
+    second: TIdle_743
+  - first:
+      213: -4683910976656826744
+    second: TIdle_744
+  - first:
+      213: 6157365634413846911
+    second: TIdle_745
+  - first:
+      213: 2199774759914613789
+    second: TIdle_746
+  - first:
+      213: -7441478094054006993
+    second: TIdle_747
+  - first:
+      213: -2062068029232426110
+    second: TIdle_748
+  - first:
+      213: -2971793184145552018
+    second: TIdle_749
+  - first:
+      213: -7511495377926087980
+    second: TIdle_750
+  - first:
+      213: -2888608138298223319
+    second: TIdle_751
+  - first:
+      213: -6365766175231674022
+    second: TIdle_752
+  - first:
+      213: -7373880493470732405
+    second: TIdle_753
+  - first:
+      213: -1158008949591191871
+    second: TIdle_754
+  - first:
+      213: 7730321075177878911
+    second: TIdle_755
+  - first:
+      213: -5570414688754145274
+    second: TIdle_756
+  - first:
+      213: 9025466589920081210
+    second: TIdle_757
+  - first:
+      213: 8968399035407393505
+    second: TIdle_758
+  - first:
+      213: -4197506950457383171
+    second: TIdle_759
+  - first:
+      213: 7409891057092325171
+    second: TIdle_760
+  - first:
+      213: 4490326720257894953
+    second: TIdle_761
+  - first:
+      213: 2499842602344946510
+    second: TIdle_762
+  - first:
+      213: -6397531629033268307
+    second: TIdle_763
+  - first:
+      213: 1745542178991136505
+    second: TIdle_764
+  - first:
+      213: 2332485672803961347
+    second: TIdle_765
+  - first:
+      213: 2199260046133385167
+    second: TIdle_766
+  - first:
+      213: -3950171228391809162
+    second: TIdle_767
+  - first:
+      213: -5037200767453727436
+    second: TIdle_768
+  - first:
+      213: -5980405909039839352
+    second: TIdle_769
+  - first:
+      213: -9021429745477015549
+    second: TIdle_770
+  - first:
+      213: 2138999550732268220
+    second: TIdle_771
+  - first:
+      213: -8356522962492562706
+    second: TIdle_772
+  - first:
+      213: 3244086070334764761
+    second: TIdle_773
+  - first:
+      213: 1521018713407429505
+    second: TIdle_774
+  - first:
+      213: 5794229586015438369
+    second: TIdle_775
+  - first:
+      213: 6104301304219476665
+    second: TIdle_776
+  - first:
+      213: -494116698133970779
+    second: TIdle_777
+  - first:
+      213: 4919112105689335346
+    second: TIdle_778
+  - first:
+      213: 130987686889069212
+    second: TIdle_779
+  - first:
+      213: -161940225213554815
+    second: TIdle_780
+  - first:
+      213: -5182900102642380382
+    second: TIdle_781
+  - first:
+      213: -8457979187745224574
+    second: TIdle_782
+  - first:
+      213: -7026578885889927474
+    second: TIdle_783
+  - first:
+      213: -2432569867874870683
+    second: TIdle_784
+  - first:
+      213: 3232892257191438260
+    second: TIdle_785
+  - first:
+      213: -6780540226138514168
+    second: TIdle_786
+  - first:
+      213: -8434054962893928121
+    second: TIdle_787
+  - first:
+      213: -5722117611160664505
+    second: TIdle_788
+  - first:
+      213: 2222275091979898573
+    second: TIdle_789
+  - first:
+      213: -3249275161397092711
+    second: TIdle_790
+  - first:
+      213: 5077894040651744859
+    second: TIdle_791
+  - first:
+      213: 5382343199602621315
+    second: TIdle_792
+  - first:
+      213: -8322313129217433498
+    second: TIdle_793
+  - first:
+      213: -3789653457923090610
+    second: TIdle_794
+  - first:
+      213: -4740715246095218269
+    second: TIdle_795
+  - first:
+      213: -5296629233764689770
+    second: TIdle_796
+  - first:
+      213: 8078521881444363263
+    second: TIdle_797
+  - first:
+      213: 6013090002189285485
+    second: TIdle_798
+  - first:
+      213: 279658485353212786
+    second: TIdle_799
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TIdle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1ee7438e2208ce0800000000000000
+      internalID: -1405084703031107075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fbbb5041fce2460800000000000000
+      internalID: 7218934937623969639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c010b6c886d636c90800000000000000
+      internalID: -7177773085298589428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4489dac9f97114170800000000000000
+      internalID: 8160829974067910724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d2a48343a03a340800000000000000
+      internalID: 4873750441143971230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9192fc79779353760800000000000000
+      internalID: 7436913545483069721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b515ee42d1be6e2b0800000000000000
+      internalID: -5555494579908751013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6036695a7635f30800000000000000
+      internalID: 4563104808346781424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35900795690c38ef0800000000000000
+      internalID: -107030214148617901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c506b6793789f000800000000000000
+      internalID: 70235950075479490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b874b024613e51120800000000000000
+      internalID: 2384061262499366795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7f89f6f7db92d00800000000000000
+      internalID: 948497551568992197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a65a55dd2cd94830800000000000000
+      internalID: 4056015028834948770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4821757709bc610800000000000000
+      internalID: 1642565331343017198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab46598a9c856a100800000000000000
+      internalID: 118880063311930554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ac299d82f4b4320800000000000000
+      internalID: 2543213451448338946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919b49150150a3440800000000000000
+      internalID: 4916247510874634521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e0cddea32b5d030800000000000000
+      internalID: 3518914650028379734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8018b8a5e8f66b00800000000000000
+      internalID: 821617647303528589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_19
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca05494e57ee6a2b0800000000000000
+      internalID: -5573505298710900564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8168bc85a92d370800000000000000
+      internalID: 8345902765633312994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_21
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d47e527cbaf14010800000000000000
+      internalID: 1171493065372628181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_22
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0757ba8218d6e90800000000000000
+      internalID: -7030821431580200717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_23
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc013b8ead1ed9f0800000000000000
+      internalID: -441883077938967364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f709abfc6347b00800000000000000
+      internalID: 825344897531805485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_25
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395154a29158e97e0800000000000000
+      internalID: -1756820461498067565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_26
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297237f98d7800b80800000000000000
+      internalID: -8430589137979758702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_27
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c98dd281fecee80800000000000000
+      internalID: -8147874738692645733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_28
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9736247879eb17190800000000000000
+      internalID: -7966376707823082631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_29
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cae312b8c0baf380800000000000000
+      internalID: -8936636134535730494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_30
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b550aa355cc47140800000000000000
+      internalID: 4716619376191624627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_31
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b299cbd8c2b1d6a0800000000000000
+      internalID: -6426158617530363214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_32
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b83d834b370ba80800000000000000
+      internalID: -8453129282689725585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_33
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e3aea363b171de0800000000000000
+      internalID: -1362590442525671880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_34
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f0aff759b94928c0800000000000000
+      internalID: -4023603731684679431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_35
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e672775342cf4e10800000000000000
+      internalID: 2184177938783696616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_36
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf600fd58324c0d0800000000000000
+      internalID: -3403556360506282053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_37
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b22b691da84ae40800000000000000
+      internalID: 5666806863919983461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_38
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e871c80085dcab0800000000000000
+      internalID: -4986232453055672727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_39
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0cfe9f83c422e2a0800000000000000
+      internalID: -6709760072481833970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_40
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe29274b3285ed90800000000000000
+      internalID: -7069100848979562822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_41
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70cf10a0528dd100800000000000000
+      internalID: 134406846686412924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_42
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103299300cfbbd7e0800000000000000
+      internalID: -1739585999633571071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_43
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee05f21978d447b0800000000000000
+      internalID: -5240826051831722270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_44
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c03b73bd018c3020800000000000000
+      internalID: 2322873403662086345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_45
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bcdd8016eca69ba0800000000000000
+      internalID: -6082484142597088078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_46
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb44c776e1a3de90800000000000000
+      internalID: -7002074984407086110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_47
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162a4e6a8557a2bd0800000000000000
+      internalID: -2654180006763912607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_48
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5545c05979415f7e0800000000000000
+      internalID: -1732455840380857259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_49
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deaf4dff5e6d8fea0800000000000000
+      internalID: -5838680633557845267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_50
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2fece67a30978e0800000000000000
+      internalID: -1695319767074803005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_51
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b368cb13c4bf5b0800000000000000
+      internalID: -5333585557190198514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_52
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f3ecd537ea00010800000000000000
+      internalID: 1153113315125116762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_53
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26060654118739c80800000000000000
+      internalID: -8317172071249452958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_54
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651358ba9591ecee0800000000000000
+      internalID: -1239024974559891114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_55
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3750942b58a5ed10800000000000000
+      internalID: 2154313106175579966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_56
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b5ffb5487ad1960800000000000000
+      internalID: 7574394335228025724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_57
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28eb30dea0ab30df0800000000000000
+      internalID: -215123801094766974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_58
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659fe4772c5254b60800000000000000
+      internalID: 7729625852606871894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_59
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1380b9127b994fb0800000000000000
+      internalID: -4663025024805862626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_60
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f96ef9e6e2bfc760800000000000000
+      internalID: 7480394210923670000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_61
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5386bae1f0ac4f00800000000000000
+      internalID: 1102432969684321118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_62
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c33a851f7e7a900800000000000000
+      internalID: 695779691212258389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_63
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57701411d6f6d800800000000000000
+      internalID: 636967775164725083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_64
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311ab5d1d840a52a0800000000000000
+      internalID: -6748076087531822829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_65
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4587ec90f750975f0800000000000000
+      internalID: -758569019051706284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_66
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5317d76a0f94be530800000000000000
+      internalID: 3885280401471402293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_67
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d4373c79f623eb0800000000000000
+      internalID: -4741604760057852518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_68
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95de685fb61621dc0800000000000000
+      internalID: -3669763630044877479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_69
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e48424ac14fbb60800000000000000
+      internalID: 7763996619561258536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_70
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659a2218582533880800000000000000
+      internalID: -8632465327388448426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_71
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16e1d0cc4fe516b0800000000000000
+      internalID: -5326087871364209125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_72
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936076810c0d4ff50800000000000000
+      internalID: 6914380851382257209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_73
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb63436f56d924b0800000000000000
+      internalID: -5464600967661786182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_74
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622831f0e5f4f9030800000000000000
+      internalID: 3503606300515992102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_75
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887110bc4f6715820800000000000000
+      internalID: 2905234028380624776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_76
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa0d4997668dc6f0800000000000000
+      internalID: -662725790641878363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_77
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7f79bf0e8e66470800000000000000
+      internalID: 8387647409015486369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_78
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b228550a2abcd330800000000000000
+      internalID: 3737066480451723953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_79
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6472145345276edb0800000000000000
+      internalID: -4762993849901439162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_80
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2194301f30dc7b520800000000000000
+      internalID: 2717866316953504018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_81
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b879f6fe5e6b6e550800000000000000
+      internalID: 6189835836548159371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_82
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9872db48d7b8370800000000000000
+      internalID: 8325886345187133944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_83
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e6473aa09d20d50800000000000000
+      internalID: 6702157835195936351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_84
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5c9272654aca230800000000000000
+      internalID: 3651474087821821416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_85
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f46764b22de38db0800000000000000
+      internalID: -4790724845280729867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_86
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be54444e4443c01c0800000000000000
+      internalID: -4536193254176832021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_87
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd453169bf1695570800000000000000
+      internalID: 8455897508547351775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_88
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e66bce5fb0434cb0800000000000000
+      internalID: -4880986380466166045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_89
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd112a92b5f8e9280800000000000000
+      internalID: -9034626180755353124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_90
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fcb67acbe127390800000000000000
+      internalID: -7822155807177584845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_91
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4033444d3c7d64580800000000000000
+      internalID: -8843143582215556348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_92
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518a4ca5c6f315f40800000000000000
+      internalID: 5715419136721725461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_93
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f29acf3f1ed9b120800000000000000
+      internalID: 2430217699738686200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_94
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353e68296d79a8df0800000000000000
+      internalID: -177162287490604205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_95
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebcffa397aed61310800000000000000
+      internalID: 1375531547526954174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_96
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eede63def27d043b0800000000000000
+      internalID: -5530183741567734290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_97
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa02df270097cff0800000000000000
+      internalID: -15885713131042142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_98
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032cc6195578a23a0800000000000000
+      internalID: -6689385494923656656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_99
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf8a140674b5e240800000000000000
+      internalID: 4820457395137974187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_100
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf7c0423b7ed89b0800000000000000
+      internalID: -5076146448386719811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_101
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75cd03df2bbca650800000000000000
+      internalID: 6245572597334787455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_102
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f12e88b225cfc20800000000000000
+      internalID: 3241556178733506343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_103
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da0f04d3808d7b00800000000000000
+      internalID: 827959210192866009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_104
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c67fe33d9cc06b0800000000000000
+      internalID: -5328662349954454503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_105
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6d7c3ff4e960fd0800000000000000
+      internalID: -2376037687161792861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_106
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e8b0c7ce5c27640800000000000000
+      internalID: 5076337349484056133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_107
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac82d2e6202061bd0800000000000000
+      internalID: -2659936320454055734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_108
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b23f49c864f60a0800000000000000
+      internalID: -6886207735617868957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_109
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b3db9250458d7a0800000000000000
+      internalID: -6352234893254247592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_110
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db63b584a1220cf90800000000000000
+      internalID: -6935505929872132419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_111
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed83a23ffc53f70e0800000000000000
+      internalID: -2270036519917307682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_112
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6340b3704c120a0800000000000000
+      internalID: -6908024818075683149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_113
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a23b6a019f86800800000000000000
+      internalID: 606007999792884355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_114
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0e577599c127a00800000000000000
+      internalID: 752695532647211212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_115
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80d48fa7177e1680800000000000000
+      internalID: -8782451279713218421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_116
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913211ac8ad10a290800000000000000
+      internalID: -7881266737116536039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_117
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7db4939bf83a7260800000000000000
+      internalID: 7096046816039583103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_118
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f865cad7269a4e70800000000000000
+      internalID: 9100251094973769970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_119
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09495b8b69c59bf0800000000000000
+      internalID: -318126734923183860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_120
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2636dcc14a464ccd0800000000000000
+      internalID: -2538793633909480606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_121
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14d917e6ae17da90800000000000000
+      internalID: -7289323769685224420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_122
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e32969fb58c29a0800000000000000
+      internalID: -6256478724413047196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_123
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0c69ee98a87c9f0800000000000000
+      internalID: -448237312882065225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_124
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8745eff5d1fa7d730800000000000000
+      internalID: 4023877332778243192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_125
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6f9bebe7d047390800000000000000
+      internalID: -7821611814818810156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_126
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a0de56aea5ae3f0800000000000000
+      internalID: -870783615163889142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_127
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1d456b0df245ff0800000000000000
+      internalID: -48361122535517782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_128
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b563f501c9ac38100800000000000000
+      internalID: 109153587625408091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_129
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33effe979c410cfe0800000000000000
+      internalID: -1170913047549575629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_130
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ae8c10d394638a0800000000000000
+      internalID: -6325788100223505820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_131
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efdcbc7af5b94a800800000000000000
+      internalID: 622793483623321086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_132
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37fe30b545171bfd0800000000000000
+      internalID: -2327954925255659661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_133
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9ad696e5aab0100800000000000000
+      internalID: 75341141254187436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_134
+      rect:
+        serializedVersion: 2
+        x: 2144
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b39a38b4c80c8a60800000000000000
+      internalID: 7677521105757311926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_135
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2bb6c7e3808f740800000000000000
+      internalID: 5185904035385553649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_136
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54357a7b9001c9e10800000000000000
+      internalID: 2205655551426646853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_137
+      rect:
+        serializedVersion: 2
+        x: 2192
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc3ee5c84d470560800000000000000
+      internalID: 7279872297621404874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_138
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a583a2f46e8aa10800000000000000
+      internalID: 1921038468758657668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_139
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d324a4e319ce51190800000000000000
+      internalID: -7992221855139610051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_140
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca992a0d8b824f950800000000000000
+      internalID: 6481850537932396972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_141
+      rect:
+        serializedVersion: 2
+        x: 2256
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa911ce7bc7ec9b0800000000000000
+      internalID: -5057968202109052161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_142
+      rect:
+        serializedVersion: 2
+        x: 2272
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46405f4956ecc7010800000000000000
+      internalID: 1188051337405072484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_143
+      rect:
+        serializedVersion: 2
+        x: 2288
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b907f0620247180800000000000000
+      internalID: -9118627997678527684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_144
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065d22546de636fc0800000000000000
+      internalID: -3502834218602146464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_145
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d31dece336bb820800000000000000
+      internalID: 2935048703570951460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_146
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8040d541513708f0800000000000000
+      internalID: -574436202333060981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_147
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436bfd149485f7d60800000000000000
+      internalID: 7890122143837435444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_148
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b67e0a83a418e70800000000000000
+      internalID: 9115648727852739478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_149
+      rect:
+        serializedVersion: 2
+        x: 2384
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96dfbadad69c34fc0800000000000000
+      internalID: -3511741811516506775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_150
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f88796f8548eaf40800000000000000
+      internalID: 5741672092573075696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_151
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f624ee6e144c490800000000000000
+      internalID: -7726978600565313639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_152
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdebdeb2f023b92e0800000000000000
+      internalID: -2118044159004786977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_153
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183b0cc3ee3acf5a0800000000000000
+      internalID: -6486129119703551103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_154
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31613eb1c0562140800000000000000
+      internalID: 4694528454630138175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_155
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536983542599bbc60800000000000000
+      internalID: 7835024555368814133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_156
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0212ffc064a317470800000000000000
+      internalID: 8390551653308113184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_157
+      rect:
+        serializedVersion: 2
+        x: 2512
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f995a3e6ced784ac0800000000000000
+      internalID: -3870705425309869665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_158
+      rect:
+        serializedVersion: 2
+        x: 2528
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7829ae671c06db90800000000000000
+      internalID: -7217568058034280326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TIdle_159
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6f429afc70e09f0800000000000000
+      internalID: -500453920114149710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

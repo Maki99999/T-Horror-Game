@@ -1,0 +1,1 @@
+magick montage -geometry +0+0 -tile 160x1 -background none *.png _out.png
