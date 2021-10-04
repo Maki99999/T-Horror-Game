@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.ParticleSystemJobs;
 
 namespace T
 {
@@ -13,6 +14,7 @@ namespace T
         public GameObject keyboardInput;
         public Animator doorAnim;
         public SpriteRenderer dudeSprite;
+        public ParticleSystem candyParticles;
 
         public Sprite[] dudes;
 
@@ -97,6 +99,7 @@ namespace T
 
             yield return controller.Minigame(buttonCount, difficulty);
 
+            candyParticles.Play();
             audioSource.clip = sfxDoorClose;
             audioSource.Play();
             doorAnim.SetBool("Open", false);
