@@ -407,7 +407,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -27.400024}
+  m_AnchoredPosition: {x: 0, y: -27.399902}
   m_SizeDelta: {x: 248.92847, y: 27.305298}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &116629321
@@ -1096,7 +1096,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   housePrefabs:
-  - {fileID: 1185806632}
+  - {fileID: 8816234248994433430, guid: 5d06cb6c89e6be041b3467b95e8f5dc4, type: 3}
   houseWidth: 20
   houseCount: 5
 --- !u!1 &519420028
@@ -1830,8 +1830,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mixer: {fileID: 24100000, guid: 48861ccf987531147996f05acad47eef, type: 2}
-  susValue: 0
-  candyValue: 0
   susSlider: {fileID: 1709143988}
   candySlider: {fileID: 1593271535}
   candyDecreaseValue: 0.01
@@ -1970,7 +1968,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1060450223}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.82, y: 13.19, z: -2}
+  m_LocalPosition: {x: 11.44, y: 15.07, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 101149743}
@@ -1990,7 +1988,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.9}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2699,11 +2697,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1164390771}
   m_CullTransparentMesh: 0
---- !u!1 &1185806632 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8816234248994433430, guid: 5d06cb6c89e6be041b3467b95e8f5dc4, type: 3}
-  m_PrefabInstance: {fileID: 8816234247944655038}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1185806633 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8816234248994433431, guid: 5d06cb6c89e6be041b3467b95e8f5dc4, type: 3}
@@ -3998,7 +3991,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &1853059678
 Transform:
   m_ObjectHideFlags: 0
@@ -4554,14 +4547,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 468650740}
     m_Modifications:
-    - target: {fileID: 8816234248664583155, guid: 5d06cb6c89e6be041b3467b95e8f5dc4, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1060450225}
-    - target: {fileID: 8816234248664583155, guid: 5d06cb6c89e6be041b3467b95e8f5dc4, type: 3}
-      propertyPath: controller
-      value: 
-      objectReference: {fileID: 1096850804}
     - target: {fileID: 8816234248994433430, guid: 5d06cb6c89e6be041b3467b95e8f5dc4, type: 3}
       propertyPath: m_Name
       value: House01

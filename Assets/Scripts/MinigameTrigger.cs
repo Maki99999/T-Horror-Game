@@ -7,9 +7,6 @@ namespace T
 {
     public class MinigameTrigger : MonoBehaviour
     {
-        public MinigameController controller;
-        public PlayerController player;
-
         public GameObject controllerInput;
         public GameObject keyboardInput;
         public Animator doorAnim;
@@ -30,12 +27,15 @@ namespace T
         public int buttonCount = 12;
         public int difficulty = 5;
 
+        MinigameController controller;
         bool inRange = false;
         bool triggered = false;
 
-        void Start()
+        IEnumerator Start()
         {
-            player.controls.Player.Confirm.performed += ctx => TryStartingMinigame();
+            yield return null;
+            controller = GameObject.FindObjectOfType<MinigameController>();
+            controller.controls.Player.Confirm.performed += ctx => TryStartingMinigame();
             ShowingInput(false);
         }
 
@@ -70,7 +70,7 @@ namespace T
             {
                 triggered = true;
                 ShowingInput(false);
-                player.Freeze();
+                controller.player.Freeze();
                 StartCoroutine(OpenDoor());
             }
         }

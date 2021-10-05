@@ -9,19 +9,29 @@ namespace T
 {
     public class GameController : MonoBehaviour
     {
+        private static GameController _instance;
+        public static GameController Instance { get { return _instance; } }
+
         public AudioMixer mixer;
 
-        public float susValue;
-        public float candyValue;
+        [SerializeField] private MeterSlider susSlider;
+        [SerializeField] private MeterSlider candySlider;
 
-        public MeterSlider susSlider;
-        public MeterSlider candySlider;
+        [SerializeField] private float candyDecreaseValue = 0.1f;
+        private float susValue;
+        private float candyValue;
 
-        public float candyDecreaseValue = 0.1f;
+        private bool minigameTriggered = false;
 
-        bool minigameTriggered = false;
+        private void Awake()
+        {
+            if (_instance != null && _instance != this)
+                Destroy(this.gameObject);
+            else
+                _instance = this;
+        }
 
-        void Start()
+        IEnumerator Start()
         {
             susValue = 0f;
             candyValue = 0.5f;
@@ -30,19 +40,25 @@ namespace T
             candySlider.SetColor(Color.gray);
             susSlider.SetValue(0);
             candySlider.SetValue(16);
-            //intro
+
+            yield return null;  //TODO: Intro
             StartWalkPhase();
         }
 
         public void MinigameMistake(int difficulty)
         {
-            susValue += Mathf.Lerp(0.1f, 0.5f, difficulty / 10f);   //diff 10 - 0.5; diff 1  - 0.1
+            susValue += Mathf.Lerp(0.1f, 0.5f, difficulty / 10f);   //diff 10 -> 0.5; diff 0 -> 0.1
             susSlider.SetValue(Mathf.RoundToInt(susValue * 32));
 
             if (susValue >= 1f)
             {
-                Debug.Log("Game Over");
+                Debug.Log("Game Over"); //TODO: DeathCutscene
             }
+        }
+
+        public void HitObstacle()
+        {
+            MinigameMistake(4);
         }
 
         public void ResetSusValue()
@@ -67,16 +83,11 @@ namespace T
                 candySlider.SetValue(Mathf.RoundToInt(candyValue * 32));
                 if (candyValue <= 0f)
                 {
-                    Debug.Log("Game Over"); //TODO:
+                    Debug.Log("Game Over"); //TODO: DeathCutscene
                     break;
                 }
                 yield return new WaitForSeconds(1f);
             }
-        }
-
-        public void MinigameStarted()
-        {
-
         }
 
         public void ChangeVolumeMusic(float value)

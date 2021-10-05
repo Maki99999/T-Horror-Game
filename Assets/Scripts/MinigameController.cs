@@ -73,12 +73,11 @@ namespace T
                 {
                     lastButtonPressed = "";
                     timerTriggered = false;
-                    Coroutine timer = StartCoroutine(ButtonTimer((difficulty / 10f) * (maxTime - minTime) + minTime));
+                    Coroutine timer = StartCoroutine(ButtonTimer(maxTime - (difficulty / 10f) * (maxTime - minTime)));
                     while (lastButtonPressed.Equals("") && !timerTriggered)
                         yield return null;
                     string pressedButton = lastButtonPressed;
                     StopCoroutine(timer);
-
 
                     if (!lastButtonPressed.Equals(currentButton))
                     {

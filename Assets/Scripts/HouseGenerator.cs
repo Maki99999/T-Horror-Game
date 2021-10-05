@@ -14,9 +14,14 @@ namespace T
         void Start()
         {
             float currentX = houseWidth;
-            for (int i = 0; i < houseCount - 1; i++)
+            for (int i = 0; i < houseCount; i++)
             {
-                Instantiate(housePrefabs[Random.Range(0, housePrefabs.Length)], transform.position + currentX * Vector3.right, Quaternion.Euler(Vector3.zero), transform);
+                GameObject house = Instantiate(
+                    housePrefabs[Random.Range(0, housePrefabs.Length)],
+                    transform.position + currentX * Vector3.right,
+                    Quaternion.Euler(Vector3.zero),
+                    transform);
+                house.GetComponentInChildren<MinigameTrigger>().difficulty = Mathf.RoundToInt(((float)i / houseCount) * 10f);
                 currentX += houseWidth;
             }
         }
