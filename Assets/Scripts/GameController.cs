@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
-using UnityEngine.UI;
+using UnityEngine.Video;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 namespace T
 {
@@ -13,14 +14,23 @@ namespace T
         public static GameController Instance { get { return _instance; } }
 
         public AudioMixer mixer;
-
         [SerializeField] private MeterSlider susSlider;
         [SerializeField] private MeterSlider candySlider;
 
-        [SerializeField] private float candyDecreaseValue = 0.1f;
+        [Space(10), SerializeField] private CanvasGroup videoCanvasGroup;
+        [SerializeField] private GameObject videoImage;
+        [SerializeField] private RenderTexture videoRenderTexture;
+        [SerializeField] private VideoPlayer videoPlayer;
+        [SerializeField] private VideoClip introVideo;
+        [SerializeField] private GameObject introAudio;
+        [SerializeField] private VideoClip deathVideo;
+        [SerializeField] private GameObject deathAudio;
+
+        [Space(10), SerializeField] private float candyDecreaseValue = 0.1f;
         private float susValue;
         private float candyValue;
 
+        public bool gameActive { get; private set; } = false;
         private bool minigameTriggered = false;
 
         private void Awake()
@@ -41,8 +51,30 @@ namespace T
             susSlider.SetValue(0);
             candySlider.SetValue(16);
 
-            yield return null;  //TODO: Intro
+            yield return Intro();
+            gameActive = true;
             StartWalkPhase();
+        }
+
+        IEnumerator Intro()
+        {
+            videoRenderTexture.Release();
+            videoCanvasGroup.alpha = 1f;
+            introAudio.SetActive(true);
+
+            yield return new WaitForSeconds(4f);
+            videoImage.SetActive(true);
+            videoPlayer.clip = introVideo;
+            yield return null;
+            videoPlayer.Play();
+
+            yield return new WaitForSeconds(1f); ;
+            yield return new WaitWhile(() => videoPlayer.isPlaying);
+            videoImage.SetActive(false);
+
+            yield return new WaitForSeconds(0.5f);
+            introAudio.SetActive(false);
+            videoCanvasGroup.alpha = 0f;
         }
 
         public void MinigameMistake(int difficulty)
@@ -52,7 +84,7 @@ namespace T
 
             if (susValue >= 1f)
             {
-                Debug.Log("Game Over"); //TODO: DeathCutscene
+                StartCoroutine(Death());
             }
         }
 
@@ -69,21 +101,51 @@ namespace T
 
         public void StartWalkPhase()
         {
+            if (!gameActive)
+                return;
+
             ResetSusValue();
             candyValue = 1f;
             candySlider.SetValue(32);
             StartCoroutine(CandyDecreaser());
         }
 
-        IEnumerator CandyDecreaser()
+        private IEnumerator Death()
         {
-            while (!minigameTriggered)
+            if (!gameActive)
+                yield break;
+            gameActive = false;
+
+            videoRenderTexture.Release();
+            videoCanvasGroup.alpha = 1f;
+
+            yield return new WaitForSeconds(2f);
+            videoImage.SetActive(true);
+            videoPlayer.clip = deathVideo;
+            videoPlayer.Play();
+            deathAudio.SetActive(true);
+
+            yield return new WaitForSeconds(2f);
+            yield return new WaitWhile(() => videoPlayer.isPlaying);
+            videoImage.SetActive(false);
+
+            yield return new WaitForSeconds(1f);
+            deathAudio.SetActive(false);
+
+            Application.Quit();
+            StopAllCoroutines();
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+
+        private IEnumerator CandyDecreaser()
+        {
+            while (!minigameTriggered && gameActive)
             {
                 candyValue -= candyDecreaseValue;
                 candySlider.SetValue(Mathf.RoundToInt(candyValue * 32));
                 if (candyValue <= 0f)
                 {
-                    Debug.Log("Game Over"); //TODO: DeathCutscene
+                    StartCoroutine(Death());
                     break;
                 }
                 yield return new WaitForSeconds(1f);

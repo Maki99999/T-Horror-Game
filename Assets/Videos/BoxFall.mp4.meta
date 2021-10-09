@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bb08778b5c0097240b746c3ad7c397b4
+guid: 38279cf9d21dce54c9ff4cf18940afbb
 VideoClipImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -7,7 +7,7 @@ VideoClipImporter:
   startFrame: -1
   endFrame: -1
   colorSpace: 0
-  deinterlace: 0
+  deinterlace: 2
   encodeAlpha: 0
   flipVertical: 0
   flipHorizontal: 0

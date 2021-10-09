@@ -43,7 +43,7 @@ namespace T
         void FixedUpdate()
         {
             if (freeze > 0)
-                Move();
+                Move(!GameController.Instance.gameActive);
         }
 
         void Move(bool standStill = false)

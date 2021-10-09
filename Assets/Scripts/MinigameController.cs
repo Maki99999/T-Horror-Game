@@ -73,13 +73,13 @@ namespace T
                 {
                     lastButtonPressed = "";
                     timerTriggered = false;
+
                     Coroutine timer = StartCoroutine(ButtonTimer(maxTime - (difficulty / 10f) * (maxTime - minTime)));
-                    while (lastButtonPressed.Equals("") && !timerTriggered)
-                        yield return null;
-                    string pressedButton = lastButtonPressed;
+                    yield return new WaitWhile(() => lastButtonPressed.Equals("") && !timerTriggered);
                     StopCoroutine(timer);
 
-                    if (!lastButtonPressed.Equals(currentButton))
+                    string pressedButton = lastButtonPressed;
+                    if (timerTriggered || !lastButtonPressed.Equals(currentButton))
                     {
                         gameController.MinigameMistake(difficulty);
                         buttonAudioSource.clip = sfxWrong;
@@ -108,6 +108,7 @@ namespace T
                 timeSlider.SetValue(Mathf.RoundToInt(((1 - (Time.time - startTime) / time)) * 32));
                 yield return null;
             }
+            yield return null;
             timerTriggered = true;
         }
 
