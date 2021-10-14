@@ -30,6 +30,8 @@ namespace T
         private float susValue;
         private float candyValue;
 
+        [Space(10)] public bool skipIntro;
+
         public bool gameActive { get; private set; } = false;
         private bool minigameTriggered = false;
 
@@ -51,7 +53,8 @@ namespace T
             susSlider.SetValue(0);
             candySlider.SetValue(16);
 
-            yield return Intro();
+            if (!skipIntro)
+                yield return Intro();
             gameActive = true;
             StartWalkPhase();
         }
