@@ -9,7 +9,7 @@ namespace T
         public Collider2D bagCollider;
         public Transform playerBagTransform;
         public Collider2D playerCollider;
-        public LineRenderer lineRenderer;
+        public Game.Core.Rendering.LineRenderer2D lineRenderer;
 
         private Vector3 lastDistance = Vector3.zero;
 
@@ -26,7 +26,7 @@ namespace T
         private void Update()
         {
             lastDistance = transform.position + transform.up * 0.5f - playerBagTransform.position;
-            lineRenderer.SetPosition(1, lastDistance);
+            lineRenderer.PointB = lastDistance;
         }
 
         private IEnumerator CheckDistance()
