@@ -16,6 +16,7 @@ namespace T
         public AudioMixer mixer;
         [SerializeField] private MeterSlider susSlider;
         [SerializeField] private MeterSlider candySlider;
+        [SerializeField] private PlayerController player;
 
         [Space(10), SerializeField] private CanvasGroup videoCanvasGroup;
         [SerializeField] private GameObject videoImage;
@@ -23,6 +24,10 @@ namespace T
         [SerializeField] private VideoPlayer videoPlayer;
         [SerializeField] private VideoClip introVideo;
         [SerializeField] private GameObject introAudio;
+        [SerializeField] private Animator introDoorAnim;
+        [SerializeField] private AudioSource introDoorAudio;
+        [SerializeField] private Animator introWindowAnim;
+        [SerializeField] private Transform playerStartPos;
         [SerializeField] private VideoClip deathVideo;
         [SerializeField] private GameObject deathAudio;
 
@@ -77,7 +82,12 @@ namespace T
 
             yield return new WaitForSeconds(0.5f);
             introAudio.SetActive(false);
+            player.transform.position = playerStartPos.position;
             videoCanvasGroup.alpha = 0f;
+
+            introDoorAnim.SetBool("Open", true);
+            introWindowAnim.SetTrigger("Start");
+            introDoorAudio.PlayDelayed(1f);
         }
 
         public void MinigameMistake(int difficulty)

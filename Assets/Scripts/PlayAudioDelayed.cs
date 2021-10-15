@@ -4,6 +4,7 @@ using UnityEngine;
 
 namespace T
 {
+    [RequireComponent(typeof(AudioSource))]
     public class PlayAudioDelayed : MonoBehaviour
     {
         public float delay = 5;

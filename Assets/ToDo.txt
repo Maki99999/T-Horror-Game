@@ -1,7 +1,7 @@
-intro house: houseDoor, fenceDoor
-MC carries big bag with him (with simple physics for the bag and the rope connecting the bag and MC)
+fix deathAnim
 endAnim
 
+line between player and bag: resolution?
 random bushes in gardens
 more houses
 more children

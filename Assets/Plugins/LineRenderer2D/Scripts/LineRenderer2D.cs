@@ -340,11 +340,11 @@ namespace Game.Core.Rendering
                 parentPosition = transform.parent.position;
             }
 
-            Gizmos.color = Color.cyan;
-            Gizmos.DrawRay(PointA + parentPosition, Vector2.up * 5.0f);
-            Gizmos.DrawRay(PointA + parentPosition, Vector2.right * 5.0f);
-            Gizmos.DrawRay(PointB + parentPosition, Vector2.up * 5.0f);
-            Gizmos.DrawRay(PointB + parentPosition, Vector2.right * 5.0f);
+            //Gizmos.color = Color.cyan;
+            //Gizmos.DrawRay(PointA + parentPosition, Vector2.up * 5.0f);
+            //Gizmos.DrawRay(PointA + parentPosition, Vector2.right * 5.0f);
+            //Gizmos.DrawRay(PointB + parentPosition, Vector2.up * 5.0f);
+            //Gizmos.DrawRay(PointB + parentPosition, Vector2.right * 5.0f);
 
             Gizmos.color = Color.magenta;
             Gizmos.DrawLine(PointA + parentPosition, PointB + parentPosition);
