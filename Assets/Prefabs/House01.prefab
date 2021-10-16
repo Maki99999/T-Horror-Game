@@ -366,7 +366,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1168779580}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.5, y: 18.75, z: 0}
+  m_LocalPosition: {x: 10.5, y: 19.75, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8816234248994433431}
@@ -5185,7 +5185,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 20
   m_RenderMode: 0
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -5468,7 +5468,6 @@ GameObject:
   - component: {fileID: 8816234247846563889}
   - component: {fileID: 8816234247846563886}
   - component: {fileID: 8816234247944655042}
-  - component: {fileID: 8816234247944655041}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
@@ -5564,25 +5563,6 @@ MonoBehaviour:
     m_Extent: {x: 0.5625, y: 0.96875, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
---- !u!95 &8816234247944655041
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8816234247846563888}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0daf7cbd0e4f61048908bf80c7df29df, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8816234248662456546
 GameObject:
   m_ObjectHideFlags: 0
@@ -5626,6 +5606,7 @@ GameObject:
   - component: {fileID: 8816234248664583152}
   - component: {fileID: 8816234248664583155}
   - component: {fileID: 8816234248664583150}
+  - component: {fileID: 57013906}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -5645,8 +5626,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8816234248662456547}
-  - {fileID: 8816234248964243092}
   - {fileID: 9040603905830696335}
+  - {fileID: 8816234248964243092}
   m_Father: {fileID: 8816234248994433431}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5690,7 +5671,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controllerInput: {fileID: 8816234249598355631}
   keyboardInput: {fileID: 8816234249397290634}
-  doorAnim: {fileID: 8816234247944655041}
+  doorAnim: {fileID: 57013906}
   dudeSprite: {fileID: 8816234248964243093}
   candyParticles: {fileID: 1168779583}
   dudes:
@@ -5797,6 +5778,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &57013906
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8816234248664583157}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0daf7cbd0e4f61048908bf80c7df29df, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8816234248964243095
 GameObject:
   m_ObjectHideFlags: 0
@@ -5822,11 +5822,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8816234248964243095}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.13, z: 0}
+  m_LocalPosition: {x: 0, y: 0.12999916, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8816234248664583154}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8816234248964243093
 SpriteRenderer:
@@ -6255,11 +6255,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8921151349116362168}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.8125, z: 0}
+  m_LocalPosition: {x: 0, y: 2.875, z: 0}
   m_LocalScale: {x: 0.8, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8816234248664583154}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7175626700343713184
 SpriteRenderer:

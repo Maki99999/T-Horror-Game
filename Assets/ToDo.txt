@@ -1,7 +1,6 @@
 fix deathAnim
 endAnim
 
-line between player and bag: resolution?
 random bushes in gardens
 more houses
 more children
