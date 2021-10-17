@@ -8,6 +8,7 @@ namespace T
     public class PlayerController : MonoBehaviour
     {
         public Rigidbody2D rb;
+        new public Collider2D collider;
         public Animator anim;
         public Animator WrapAnim;
         public InputMaster controls;
@@ -16,6 +17,7 @@ namespace T
         private int freeze = 0;
         private Vector2 movement = Vector2.zero;
         private bool facingLeft = true;
+        private bool overrideMove = false;
 
         void Awake()
         {
@@ -43,11 +45,13 @@ namespace T
         void FixedUpdate()
         {
             if (freeze > 0)
-                Move(!GameController.Instance.gameActive);
+                TryMove(!GameController.Instance.gameActive);
         }
 
-        void Move(bool standStill = false)
+        private void TryMove(bool standStill = false)
         {
+            if (overrideMove)
+                return;
             Vector2 direction;
             if (standStill)
             {
@@ -59,7 +63,11 @@ namespace T
                 direction.Normalize();
                 direction *= speed;
             }
+            Move(direction);
+        }
 
+        private void Move(Vector3 direction)
+        {
             rb.velocity = direction * Time.deltaTime;
 
             if (direction.x > 0f && facingLeft)
@@ -75,11 +83,32 @@ namespace T
             anim.SetBool("Walking", direction.sqrMagnitude > 0f);
         }
 
+        public IEnumerator MoveTo(Vector3 position, bool ignoreCollision = false)
+        {
+            if (ignoreCollision)
+                collider.enabled = false;
+
+            overrideMove = true;
+            Vector3 direction = (position - transform.position).normalized * speed;
+            float distance = 2f;
+            while (freeze == 0 && distance > 0.1f)
+            {
+                Move(direction);
+                distance = (position - transform.position).sqrMagnitude;
+                yield return null;
+            }
+
+            overrideMove = false;
+            TryMove(true);
+            if (ignoreCollision)
+                collider.enabled = true;
+        }
+
         public void Freeze()
         {
             if (--freeze == 0)
             {
-                Move(true);
+                TryMove(true);
             }
         }
 

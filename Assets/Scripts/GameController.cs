@@ -16,7 +16,7 @@ namespace T
         public AudioMixer mixer;
         [SerializeField] private MeterSlider susSlider;
         [SerializeField] private MeterSlider candySlider;
-        [SerializeField] private PlayerController player;
+        public PlayerController player;
 
         [Space(10), SerializeField] private CanvasGroup videoCanvasGroup;
         [SerializeField] private GameObject videoImage;
@@ -27,6 +27,8 @@ namespace T
         [SerializeField] private Animator introDoorAnim;
         [SerializeField] private AudioSource introDoorAudio;
         [SerializeField] private Animator introWindowAnim;
+        [SerializeField] private VideoClip outroVideo;
+        [SerializeField] private GameObject outroAudio;
         [SerializeField] private Transform playerStartPos;
         [SerializeField] private VideoClip deathVideo;
         [SerializeField] private GameObject deathAudio;
@@ -69,6 +71,7 @@ namespace T
             videoRenderTexture.Release();
             videoCanvasGroup.alpha = 1f;
             introAudio.SetActive(true);
+            player.transform.position = playerStartPos.position;
 
             yield return new WaitForSeconds(4f);
             videoImage.SetActive(true);
@@ -76,18 +79,35 @@ namespace T
             yield return null;
             videoPlayer.Play();
 
-            yield return new WaitForSeconds(1f); ;
+            yield return new WaitForSeconds(1f);
             yield return new WaitWhile(() => videoPlayer.isPlaying);
             videoImage.SetActive(false);
 
             yield return new WaitForSeconds(0.5f);
             introAudio.SetActive(false);
-            player.transform.position = playerStartPos.position;
             videoCanvasGroup.alpha = 0f;
 
             introDoorAnim.SetBool("Open", true);
             introWindowAnim.SetTrigger("Start");
             introDoorAudio.PlayDelayed(1f);
+        }
+
+        public IEnumerator Outro()
+        {
+            videoRenderTexture.Release();
+            videoCanvasGroup.alpha = 1f;
+            outroAudio.SetActive(true);
+            videoImage.SetActive(true);
+            videoPlayer.clip = outroVideo;
+            yield return null;
+            videoPlayer.Play();
+
+            yield return new WaitForSeconds(1f);
+            yield return new WaitWhile(() => videoPlayer.isPlaying);
+            yield return new WaitForSeconds(0.2f);
+
+            StopAllCoroutines();
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
         public void MinigameMistake(int difficulty)

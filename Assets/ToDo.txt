@@ -1,6 +1,3 @@
-fix deathAnim
-endAnim
-
 random bushes in gardens
 more houses
 more children
@@ -8,8 +5,4 @@ more door people
 when a meter/bar is not shaking anymore -> center its position
 random text in speech bubbles from door people: "you smell weird/funny"
 amogus easter egg when you click on suspicion 99999 times
-intro: video, then a scream (or the other way around), 
-  then you start at a house (not MCs) that is on the side 
-  (maybe start from inside and walk to the exit on the right; maybe backside of the house so it can connect to the outro)
-outro: opposite side of intro house, mc rings, woman answers, she doesn't have candy 
-  -> MC tears off her head and puts it in the bag -> maybe loop to the intro
+improve outro?: MC tears off womens head and puts it in the bag

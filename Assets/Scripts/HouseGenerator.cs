@@ -6,6 +6,7 @@ namespace T
 {
     public class HouseGenerator : MonoBehaviour
     {
+        public Transform outro;
         public GameObject[] housePrefabs;
 
         public float houseWidth = 32f;
@@ -24,6 +25,7 @@ namespace T
                 house.GetComponentInChildren<MinigameTrigger>().difficulty = Mathf.RoundToInt(((float)i / houseCount) * 10f);
                 currentX += houseWidth;
             }
+            outro.position = transform.position + (currentX + 10.5f) * Vector3.right;
         }
     }
 }
