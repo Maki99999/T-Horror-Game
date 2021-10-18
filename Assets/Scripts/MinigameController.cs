@@ -25,13 +25,17 @@ namespace T
         public float maxTime;
         public float minTime;
 
-        string[] buttonStrings = new string[] { "up", "down", "left", "right", "primary", "secondary" };
-        string currentButton = "";
-        string lastButtonPressed = "";
+        public GameObject speechBubble;
+        public Text speechBubbleText;
+        private string[] speechBubbleTexts = { "weird\ncostume", "you smell\nfunny", "you smell\nweird", "funny costume", "" };
 
-        int spookyTextLetterCount = 0;
+        private string[] buttonStrings = new string[] { "up", "down", "left", "right", "primary", "secondary" };
+        private string currentButton = "";
+        private string lastButtonPressed = "";
 
-        bool timerTriggered = false;
+        private int spookyTextLetterCount = 0;
+
+        private bool timerTriggered = false;
 
         void Start()
         {
@@ -55,6 +59,7 @@ namespace T
 
         public IEnumerator Minigame(int buttonCount, int difficulty)
         {
+            StartCoroutine(SpeechBubble());
             spookyTextLetterCount = -1;
             controls.Minigame.Enable();
             buttonsBackground.SetActive(true);
@@ -127,6 +132,22 @@ namespace T
                     yield return new WaitWhile(() => voiceAudioSource.isPlaying);
                 }
             }
+        }
+
+        IEnumerator SpeechBubble()
+        {
+            yield return new WaitForSeconds(Random.Range(0f, 2f));
+            speechBubbleText.text = "";
+            speechBubble.SetActive(true);
+
+            yield return new WaitForSeconds(0.5f);
+            speechBubbleText.text = speechBubbleTexts[Random.Range(0, speechBubbleTexts.Length)];
+
+            yield return new WaitForSeconds(3f);
+            speechBubbleText.text = "";
+
+            yield return new WaitForSeconds(0.5f);
+            speechBubble.SetActive(false);
         }
     }
 }

@@ -7,14 +7,17 @@ namespace T
     public class HouseGenerator : MonoBehaviour
     {
         public Transform outro;
+        public GameObject debugHouse;
         public GameObject[] housePrefabs;
 
         public float houseWidth = 32f;
         public int houseCount;
 
-        void Start()
+        void Awake()
         {
-            float currentX = houseWidth;
+            debugHouse.SetActive(false);
+
+            float currentX = 0;
             for (int i = 0; i < houseCount; i++)
             {
                 GameObject house = Instantiate(
