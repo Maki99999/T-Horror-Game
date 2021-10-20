@@ -4035,6 +4035,7 @@ MonoBehaviour:
   susSlider: {fileID: 1709143988}
   candySlider: {fileID: 1593271535}
   player: {fileID: 1060450225}
+  playerBag: {fileID: 270846400}
   videoCanvasGroup: {fileID: 827243341}
   videoImage: {fileID: 477401765}
   videoRenderTexture: {fileID: 8400000, guid: b03f02ba2020aaf439e51380f928782e, type: 2}
@@ -4049,7 +4050,7 @@ MonoBehaviour:
   playerStartPos: {fileID: 1058457961}
   deathVideo: {fileID: 32900000, guid: 38279cf9d21dce54c9ff4cf18940afbb, type: 3}
   deathAudio: {fileID: 1457136381}
-  candyDecreaseValue: 0.01
+  candyDecreaseValue: 0.015
   skipIntro: 1
 --- !u!4 &951553043
 Transform:

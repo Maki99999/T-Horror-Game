@@ -9769,7 +9769,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.225, y: 0.55}
+  m_Offset: {x: 0.225, y: 0.5}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -9780,7 +9780,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.45, y: 1.1}
+  m_Size: {x: 0.45, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &944265385974290032
 MonoBehaviour:
@@ -9856,7 +9856,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.225, y: 0.55}
+  m_Offset: {x: -0.225, y: 0.5}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -9867,7 +9867,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.45, y: 1.1}
+  m_Size: {x: 0.45, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &5749665349953812107
 MonoBehaviour:
@@ -9912,7 +9912,7 @@ GameObject:
   - component: {fileID: 7311113822240976825}
   - component: {fileID: 128037560}
   m_Layer: 0
-  m_Name: ObstaclePerson
+  m_Name: ObstaclePerson2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10150,7 +10150,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 21300000, guid: 039ecd52943d7c0488746fe5e6f0924e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dc0c4f32594960548b5c92c9ef0e8c7d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

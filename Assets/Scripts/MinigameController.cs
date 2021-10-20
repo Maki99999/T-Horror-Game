@@ -91,8 +91,12 @@ namespace T
                         buttonAudioSource.Play();
                     }
                     yield return null;
+                    if (!gameController.gameActive)
+                        break;
                 }
                 yield return ChangeSpookyText(i, buttonCount);
+                if (!gameController.gameActive)
+                    break;
             }
             buttonAudioSource.clip = sfxFinish;
             buttonAudioSource.Play();

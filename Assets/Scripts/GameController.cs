@@ -17,6 +17,7 @@ namespace T
         [SerializeField] private MeterSlider susSlider;
         [SerializeField] private MeterSlider candySlider;
         public PlayerController player;
+        public Transform playerBag;
 
         [Space(10), SerializeField] private CanvasGroup videoCanvasGroup;
         [SerializeField] private GameObject videoImage;
@@ -124,6 +125,16 @@ namespace T
         public void HitObstacle()
         {
             MinigameMistake(4);
+        }
+
+        public void HitRat()
+        {
+            candyValue -= candyDecreaseValue * 7f;
+            candySlider.SetValue(Mathf.RoundToInt(candyValue * 32));
+            if (candyValue <= 0f)
+            {
+                StartCoroutine(Death());
+            }
         }
 
         public void ResetSusValue()
