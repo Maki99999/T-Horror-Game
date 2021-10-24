@@ -51,7 +51,6 @@ namespace T
 
         IEnumerator Start()
         {
-            Debug.Log("Start");
             susValue = 0f;
             candyValue = 0.5f;
 
