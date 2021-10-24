@@ -43,14 +43,15 @@ namespace T
 
         private void Awake()
         {
-            if (_instance != null && _instance != this)
-                Destroy(this.gameObject);
-            else
-                _instance = this;
+            if (_instance != null)
+                Destroy(_instance);
+
+            _instance = this;
         }
 
         IEnumerator Start()
         {
+            Debug.Log("Start");
             susValue = 0f;
             candyValue = 0.5f;
 
@@ -105,7 +106,7 @@ namespace T
             yield return new WaitWhile(() => videoPlayer.isPlaying);
             yield return new WaitForSeconds(0.2f);
 
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            ResetScene();
         }
 
         public void MinigameMistake(int difficulty)
@@ -174,8 +175,6 @@ namespace T
             deathAudio.SetActive(false);
 
             Application.Quit();
-            StopAllCoroutines();
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
         private IEnumerator CandyDecreaser()
@@ -191,6 +190,11 @@ namespace T
                 }
                 yield return new WaitForSeconds(1f);
             }
+        }
+
+        public void ResetScene()
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
         public static bool isControllerActive()

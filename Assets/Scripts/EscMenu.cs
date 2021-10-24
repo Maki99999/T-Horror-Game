@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Audio;
 using UnityEngine.Video;
-using UnityEngine.SceneManagement;
 
 namespace T
 {
@@ -141,7 +140,8 @@ namespace T
         public void ButtonReset()
         {
             clickSFX.Play();
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            Unpause();
+            GameController.Instance.ResetScene();
         }
 
         public void ButtonExit()
