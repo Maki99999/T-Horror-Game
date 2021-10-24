@@ -33,7 +33,7 @@ namespace T
         IEnumerator RunAndDisappear(bool fromLeft)
         {
             Vector3 oldPos = transform.position;
-            Vector3 newPos = GameController.Instance.playerBag.position;
+            Vector3 newPos = GameController.Instance.playerBag.transform.position;
 
             float rate = 1f / 0.3f;
             float fSmooth;

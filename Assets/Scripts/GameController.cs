@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Audio;
 using UnityEngine.Video;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -13,11 +12,10 @@ namespace T
         private static GameController _instance;
         public static GameController Instance { get { return _instance; } }
 
-        public AudioMixer mixer;
         [SerializeField] private MeterSlider susSlider;
         [SerializeField] private MeterSlider candySlider;
         public PlayerController player;
-        public Transform playerBag;
+        public Bag playerBag;
 
         [Space(10), SerializeField] private CanvasGroup videoCanvasGroup;
         [SerializeField] private GameObject videoImage;
@@ -107,7 +105,6 @@ namespace T
             yield return new WaitWhile(() => videoPlayer.isPlaying);
             yield return new WaitForSeconds(0.2f);
 
-            StopAllCoroutines();
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
@@ -194,16 +191,6 @@ namespace T
                 }
                 yield return new WaitForSeconds(1f);
             }
-        }
-
-        public void ChangeVolumeMusic(float value)
-        {
-            mixer.SetFloat("MusicVol", value);
-        }
-
-        public void ChangeVolumeSFX(float value)
-        {
-            mixer.SetFloat("SFXVol", value);
         }
 
         public static bool isControllerActive()

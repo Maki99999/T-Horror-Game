@@ -99,10 +99,14 @@ namespace T
 
             yield return controller.Minigame(buttonCount, difficulty);
 
+            candyParticles.trigger.AddCollider(GameController.Instance.playerBag.particleKillZone);
             candyParticles.Play();
             audioSource.clip = sfxDoorClose;
             audioSource.Play();
             doorAnim.SetBool("Open", false);
+
+            yield return new WaitForSeconds(candyParticles.main.startLifetime.constantMax / 2f);
+            candyParticles.externalForces.AddInfluence(GameController.Instance.playerBag.particleForceField);
         }
     }
 }

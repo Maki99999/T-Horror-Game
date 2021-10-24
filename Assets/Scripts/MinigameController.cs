@@ -27,7 +27,7 @@ namespace T
 
         public GameObject speechBubble;
         public Text speechBubbleText;
-        private string[] speechBubbleTexts = { "weird\ncostume", "you smell\nfunny", "you smell\nweird", "funny costume", "" };
+        private string[] speechBubbleTexts = { "weird\ncostume", "you smell\nfunny", "you smell\nweird", "funny\ncostume" };
 
         private string[] buttonStrings = new string[] { "up", "down", "left", "right", "primary", "secondary" };
         private string currentButton = "";
@@ -46,7 +46,6 @@ namespace T
             controls.Minigame.Down.performed += ctx => ClickedButton("down");
             controls.Minigame.Left.performed += ctx => ClickedButton("left");
             controls.Minigame.Right.performed += ctx => ClickedButton("right");
-            controls.Minigame.Disable();
 
             timeSlider.SetColor(Color.gray);
             timeSlider.gameObject.SetActive(false);
@@ -61,7 +60,6 @@ namespace T
         {
             StartCoroutine(SpeechBubble());
             spookyTextLetterCount = -1;
-            controls.Minigame.Enable();
             buttonsBackground.SetActive(true);
 
             timeSlider.SetValue(1);

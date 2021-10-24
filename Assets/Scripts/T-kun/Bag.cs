@@ -12,6 +12,10 @@ namespace T
         public Collider2D playerCollider;
         public Transform lineTransform;
 
+        [Space(10)]
+        public ParticleSystemForceField particleForceField;
+        public Collider particleKillZone;
+
         private float lastDistance = 0;
         private Vector3 lastDistanceVector = Vector3.zero;
 

@@ -12,6 +12,7 @@ namespace T
         public Animator doorAnim;
 
         public GameObject speechBubble;
+        public UIFollowObject speechBubbleFollow;
         public Text speechBubbleText;
 
         [Space(10)]
@@ -69,6 +70,7 @@ namespace T
             audioSource.Play();
             speechBubble.SetActive(true);
             speechBubbleText.gameObject.SetActive(true);
+            speechBubbleFollow.Trigger();
 
             speechBubbleText.text = "";
             string[] texts = { "go away", "no candy", "no\nhalloween", "go", "i'll call\nthe police" };
