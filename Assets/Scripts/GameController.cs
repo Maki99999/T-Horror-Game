@@ -39,7 +39,7 @@ namespace T
         [Space(10)] public bool skipIntro;
 
         public bool gameActive { get; private set; } = false;
-        private bool minigameTriggered = false;
+        [HideInInspector] public bool minigameTriggered = false;
 
         private void Awake()
         {

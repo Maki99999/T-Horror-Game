@@ -98,6 +98,8 @@ namespace T
             yield return new WaitForSeconds(1f);
 
             yield return controller.Minigame(buttonCount, difficulty);
+            if (!GameController.Instance.gameActive)
+                yield break;
 
             candyParticles.trigger.AddCollider(GameController.Instance.playerBag.particleKillZone);
             candyParticles.Play();

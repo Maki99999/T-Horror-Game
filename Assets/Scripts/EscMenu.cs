@@ -28,6 +28,8 @@ namespace T
         [SerializeField] private Slider sliderSFX;
         [SerializeField] private Slider sliderBGM;
 
+        private bool inCreditsMenu = false;
+        [Space(10), SerializeField] private GameObject creditsMenuObj;
 
         private void Awake()
         {
@@ -44,6 +46,7 @@ namespace T
         {
             controls = GameController.Instance.player.controls;
             controls.Esc.Esc.performed += ctx => PressedEsc();
+            controls.Esc.Any.canceled += ctx => PressedAny();
             controls.Menu.Disable();
 
             LoadSettings();
@@ -52,7 +55,16 @@ namespace T
 
         private void PressedEsc()
         {
-            ToggleEscMenu();
+            if (inCreditsMenu)
+                ToggleCreditsMenu();
+            else
+                ToggleEscMenu();
+        }
+
+        private void PressedAny()
+        {
+            if (inCreditsMenu)
+                ToggleCreditsMenu();
         }
 
         private void ToggleEscMenu()
@@ -66,7 +78,17 @@ namespace T
                 eventSystem.SetSelectedGameObject(firstSelectedGameObject);
             }
             else
+            {
+                if (inCreditsMenu)
+                    ToggleCreditsMenu();
                 Unpause();
+            }
+        }
+
+        private void ToggleCreditsMenu()
+        {
+            inCreditsMenu = !inCreditsMenu;
+            creditsMenuObj.SetActive(inCreditsMenu);
         }
 
         private void Pause()
@@ -126,6 +148,11 @@ namespace T
         {
             clickSFX.Play();
             Application.Quit();
+        }
+
+        public void ButtonCredits()
+        {
+            ToggleCreditsMenu();
         }
 
         private void LoadSettings()

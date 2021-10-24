@@ -59,6 +59,7 @@ namespace T
         public IEnumerator Minigame(int buttonCount, int difficulty)
         {
             StartCoroutine(SpeechBubble());
+            GameController.Instance.minigameTriggered = true;
             spookyTextLetterCount = -1;
             buttonsBackground.SetActive(true);
 
@@ -90,15 +91,18 @@ namespace T
                     }
                     yield return null;
                     if (!gameController.gameActive)
-                        break;
+                        yield break;
                 }
                 yield return ChangeSpookyText(i, buttonCount);
                 if (!gameController.gameActive)
-                    break;
+                    yield break;
             }
+            if (!gameController.gameActive)
+                yield break;
             buttonAudioSource.clip = sfxFinish;
             buttonAudioSource.Play();
 
+            GameController.Instance.minigameTriggered = false;
             gameController.StartWalkPhase();
             player.Unfreeze();
             buttons.ChangeButton(false, "stop");

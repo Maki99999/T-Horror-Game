@@ -1,3 +1,4 @@
+balancing: less obstacles at start, more candy decay at end
 more houses
 more children
 more random text in speech bubbles
